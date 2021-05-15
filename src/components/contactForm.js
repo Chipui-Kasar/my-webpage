@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles.module.css";
 import emailjs from "emailjs-com";
-import { useState } from "react";
 
 function ContactForm(props) {
   function sendEmail(e) {
@@ -13,6 +12,7 @@ function ContactForm(props) {
         e.target,
         "user_Mc5QI37PU2F55mUGiqmuO"
       )
+
       .then(
         result => {
           console.log(result.text);
@@ -21,7 +21,7 @@ function ContactForm(props) {
           console.log(error.text);
         }
       );
-    alert = "Message Sent Successfully";
+    alert("Message Sent Successfully");
     e.target.reset();
   }
 
