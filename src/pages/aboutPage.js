@@ -29,21 +29,21 @@ function AboutPage() {
       <TitleComp title={"Services"} span={"Services"} />
       <div className={styles.servicesContainer}>
         <ServiceSection
-          img={<FaCode size="70px" />}
+          img={<FaCode size="70px" color="#037fff" />}
           title={"Web Development"}
           text={
             " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of theprinting and typesetting industry."
           }
         />
         <ServiceSection
-          img={<FaCogs size="70px" />}
+          img={<FaCogs size="70px" color="rgb(25, 94, 25)" />}
           title={"Web Maintenance"}
           text={
             " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of theprinting and typesetting industry."
           }
         />
         <ServiceSection
-          img={<FaLaptop size="70px" />}
+          img={<FaLaptop size="70px" color="rgb(0, 208, 255)" />}
           title={"Digital Marketing"}
           text={
             " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of theprinting and typesetting industry."

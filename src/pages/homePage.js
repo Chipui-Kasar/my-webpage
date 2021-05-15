@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles.module.css";
-import { FaFacebook, FaGithub, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const handleUrl = url => {
@@ -15,27 +15,31 @@ function HomePage() {
           <span> Chipui Kasar </span>
         </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. Lorem Ipsum is simply dummy text of the
-          printing and typesetting industry. Lorem Ipsum is simply dummy text of
-          the printing and typesetting industry.
+          Code once, run million of times <br />
+          Stay Hungry! Stay Foolish
         </p>
 
         <div className={styles.homeIcons}>
           <Link className={styles.iconHead}>
             <FaFacebook
+              color={"blue"}
               className={styles.iconStyle}
               onClick={handleUrl("https://www.facebook.com/chipui.kasar.3")}
             />
             <FaGithub
+              color={"gray"}
               className={styles.iconStyle}
               onClick={handleUrl("https://github.com/Chipui-Kasar")}
             />
             <FaYoutube
+              color={"rgb(197, 11, 10)"}
               className={styles.iconStyle}
               onClick={handleUrl("https://www.youtube.com/c/chipuikasar")}
+            />
+            <FaWhatsapp
+              color={"green"}
+              className={styles.iconStyle}
+              onClick={handleUrl("https://wa.me/+918264163783")}
             />
           </Link>
         </div>

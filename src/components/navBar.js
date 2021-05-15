@@ -22,15 +22,16 @@ function NavBar() {
             </NavLink>
           </li>
           <li className={styles.navItem}>
+            <NavLink to="/education" exact activeClassName={styles.active}>
+              Education
+            </NavLink>
+          </li>
+          <li className={styles.navItem}>
             <NavLink to="/portfolio" exact activeClassName={styles.active}>
               Portfolios
             </NavLink>
           </li>
-          <li className={styles.navItem}>
-            <NavLink to="/blogs" exact activeClassName={styles.active}>
-              Blogs
-            </NavLink>
-          </li>
+
           <li className={styles.navItem}>
             <NavLink to="/contact" exact activeClassName={styles.active}>
               Contact
@@ -38,7 +39,7 @@ function NavBar() {
           </li>
         </ul>
         <footer className={styles.footer}>
-          <p>@2021 All Rights Reserve</p>
+          <p>@2021 All Rights Reserved</p>
         </footer>
       </nav>
     </div>

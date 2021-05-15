@@ -2,7 +2,7 @@ import "./App.css";
 import HomePage from "./pages/homePage";
 import NavBar from "./components/navBar";
 import AboutPage from "./pages/aboutPage";
-import BlogPage from "./pages/blogPage";
+import Education from "./pages/educationPage";
 import Contact from "./pages/contactPage";
 import Portfolio from "./pages/portfolioPage";
 import { Switch, Route } from "react-router-dom";
@@ -24,12 +24,12 @@ function App() {
               <AboutPage />
             </Route>
 
-            <Route path="/portfolio" exact>
-              <Portfolio />
+            <Route path="/education" exact>
+              <Education />
             </Route>
 
-            <Route path="/blogs" exact>
-              <BlogPage />
+            <Route path="/portfolio" exact>
+              <Portfolio />
             </Route>
 
             <Route path="/contact" exact>
