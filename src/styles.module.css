@@ -237,6 +237,10 @@
 .dwnCV:hover::after {
   width: 100%;
 }
+.dwnCV a {
+  text-decoration: none;
+  color: white;
+}
 /*============= About Skills Section================*/
 .skillsContainer {
   display: grid;

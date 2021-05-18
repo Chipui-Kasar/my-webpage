@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles.module.css";
 import about from "../img/about.jpg";
 import { FaDownload } from "react-icons/fa";
+import resume from "../img/Resume.png";
 
 function ImageSection() {
   return (
@@ -44,7 +45,10 @@ function ImageSection() {
             </div>
           </div>
           <button className={styles.dwnCV}>
-            <FaDownload /> Download CV
+            <FaDownload />{" "}
+            <a href={resume} download>
+              Download CV
+            </a>
           </button>
         </div>
       </div>
