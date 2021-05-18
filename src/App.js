@@ -47,7 +47,7 @@ function App() {
             <Route path="/contact" exact>
               <Contact />
             </Route>
-            <Route path="*" component={Home} />
+            <Route path="*" component={HomePage} />
           </Switch>
         </div>
       </div>
