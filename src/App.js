@@ -6,14 +6,26 @@ import Education from "./pages/educationPage";
 import Contact from "./pages/contactPage";
 import Portfolio from "./pages/portfolioPage";
 import { Switch, Route } from "react-router-dom";
+import { useState } from "react";
 
 function App() {
+  const [navToggle, setNavToggle] = useState(false);
+
+  const navClick = () => {
+    setNavToggle(!navToggle);
+  };
+
   return (
     <div className="App">
-      <div className="sideBar">
+      <div className={`sideBar ${navToggle ? "navToggleB" : ""}`}>
         <NavBar />
       </div>
-      <div className="main-content">
+      <div className="navBtn" onClick={navClick}>
+        <div className="bar1"></div>
+        <div className="bar2"></div>
+        <div className="bar3"></div>
+      </div>
+      <div className="mainContent">
         <div className="content">
           <Switch>
             <Route path="/" exact>

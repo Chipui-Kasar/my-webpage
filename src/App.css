@@ -3,9 +3,77 @@
   height: 100vh;
   background-color: #191d2b;
   position: fixed;
+  z-index: 11;
   border-right: 2px solid #2e344e;
+
+  transform-origin: left;
 }
-.App .main-content {
+
+/*Media query starts*/
+@media (max-width: 1000px) {
+  .App .sideBar {
+    transition: all 0.4s ease-in-out;
+    transform: translateX(-100%);
+    width: 30%;
+  }
+}
+@media (max-width: 411px) {
+  .App .sideBar {
+    width: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .App .navToggleB {
+    transition: all 0.4s ease-in-out;
+    transform: translateX(0);
+  }
+}
+/*Media query ends*/
+
+.App .navBtn {
+  position: absolute;
+  z-index: 10;
+  right: 10%;
+  top: 10%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.bar1,
+.bar2,
+.bar3 {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #3858cc;
+  pointer-events: none;
+  display: none;
+  border-radius: 20px;
+}
+.bar1,
+.bar2,
+.bar3:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+/*Media query starts*/
+@media (max-width: 1000px) {
+  .App .navBtn {
+    display: block;
+  }
+}
+@media (max-width: 1000px) {
+  .bar1,
+  .bar2,
+  .bar3 {
+    display: block;
+  }
+}
+/*Media query ends*/
+
+.App .mainContent {
   width: 84%;
   margin-left: 16%;
   background-color: #10121b;
@@ -14,8 +82,24 @@
   display: grid;
   position: relative;
 }
-.App .main-content .content {
+/*Media query starts*/
+@media (max-width: 1000px) {
+  .App .mainContent {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/*Media query ends*/
+
+.App .mainContent .content {
   margin: 5rem 7rem;
+}
+
+@media (max-width: 1000px) {
+  .App .mainContent .content {
+    margin: 2rem 2rem;
+  }
 }
 
 * {
@@ -40,4 +124,9 @@ body::-webkit-scrollbar-track {
 }
 span {
   color: #037fff;
+}
+@media (max-width: 411px) {
+  html {
+    font-size: 90%;
+  }
 }

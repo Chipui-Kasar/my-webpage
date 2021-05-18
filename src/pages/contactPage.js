@@ -52,7 +52,7 @@ function ContactPage() {
       </div>
       <div className={styles.contactPFormSection}>
         <ContactForm
-          messageTitle={"Message Me"}
+          messageTitle={"Get in Touch"}
           messageIcon={<FaWeixin size="70px" color="green" />}
         />
       </div>

@@ -15,14 +15,17 @@ function HomePage() {
           <span> Chipui Kasar </span>
         </h1>
         <p>
-          Code once, run million of times <br />
+          Front-End/Ui Development (web based)
+          <br />
+          Code once, run million of times
+          <br />
           Stay Hungry! Stay Foolish
         </p>
 
         <div className={styles.homeIcons}>
           <Link className={styles.iconHead}>
             <FaFacebook
-              color={"blue"}
+              color={"#037fff"}
               className={styles.iconStyle}
               onClick={handleUrl("https://www.facebook.com/chipui.kasar.3")}
             />
