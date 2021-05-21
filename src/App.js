@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <div className={`sideBar ${navToggle ? "navToggleB" : ""}`}>
-        <NavBar />
+        {<NavBar />}
       </div>
       <div className="navBtn" onClick={navClick}>
         <div className="bar1"></div>

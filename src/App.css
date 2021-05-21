@@ -1,11 +1,10 @@
 .App .sideBar {
   width: 16%;
   height: 100vh;
-  background-color: #191d2b;
+  background-color: #131322;
   position: fixed;
   z-index: 11;
-  border-right: 2px solid #2e344e;
-
+  border-right: 2px solid #44495f;
   transform-origin: left;
 }
 
@@ -76,7 +75,7 @@
 .App .mainContent {
   width: 84%;
   margin-left: 16%;
-  background-color: #10121b;
+  background-color: #10111b;
   min-height: 100vh;
   background-image: url(./img/dots.svg);
   display: grid;

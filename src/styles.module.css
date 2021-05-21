@@ -166,7 +166,7 @@
 }
 .imageSection .img img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   height: 100%;
 }
 .aboutInfo {
@@ -355,6 +355,32 @@
 .contactItem .contact .rightItems h6 {
   font-size: 1.4rem;
   font-weight: 500;
+}
+/*Education*/
+.educationTitle {
+  margin-bottom: 2rem;
+}
+
+.educationBox {
+  background-color: steelblue;
+  display: flex;
+  border: 1px solid rgb(96, 96, 116);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.educationBox .educationLeft {
+  font-size: calc(1em + 1vw);
+  width: 30%;
+  color: yellow;
+}
+.educationBox .educationRight {
+  font-size: calc(1em + 1vw);
+  font-style: italic;
+  color: black;
+  width: 70%;
 }
 
 /*ContactPage*/

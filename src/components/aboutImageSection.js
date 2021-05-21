@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles.module.css";
-import about from "../img/about.jpg";
+import about from "../img/about.png";
 import { FaDownload } from "react-icons/fa";
 import resume from "../img/Resume.png";
 

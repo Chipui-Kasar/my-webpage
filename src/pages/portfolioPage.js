@@ -1,10 +1,14 @@
 import React from "react";
+import TitleComp from "../components/aboutTitleComp";
+import styles from "../styles.module.css";
 
 function PortfolioPage() {
   return (
-    <div>
-      <h1>Portfolio Page</h1>
-    </div>
+    <>
+      <div className={styles.contactTitle}>
+        <TitleComp title={"Portfolio"} span={"Portfolio"} />
+      </div>
+    </>
   );
 }
 

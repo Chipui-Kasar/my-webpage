@@ -50,7 +50,7 @@ function ContactForm(props) {
             />
           </div>
 
-          <divz className={styles.formGroup}>
+          <div className={styles.formGroup}>
             <label>Phone</label>
             <input
               type="number"
@@ -58,7 +58,7 @@ function ContactForm(props) {
               placeholder="Enter Number"
               required
             />
-          </divz>
+          </div>
 
           <div className={styles.formGroup}>
             <label>Subject</label>

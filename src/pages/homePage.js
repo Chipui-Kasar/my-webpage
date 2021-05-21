@@ -23,7 +23,7 @@ function HomePage() {
         </p>
 
         <div className={styles.homeIcons}>
-          <Link className={styles.iconHead}>
+          <Link to="/" className={styles.iconHead}>
             <FaFacebook
               color={"#037fff"}
               className={styles.iconStyle}
