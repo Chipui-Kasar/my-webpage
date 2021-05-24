@@ -12,12 +12,12 @@
   width: 100%;
   text-align: center;
   margin-top: 1rem;
-  border-bottom: 2px solid #2e344e;
+  border-bottom: 2px solid #5f6477;
 }
 .navBar nav .profile img {
   width: 70%;
   border-radius: 100%;
-  border: 5px solid #2e344e;
+  border: 3px solid #376e6f;
   margin-bottom: 1rem;
 }
 
@@ -33,7 +33,7 @@
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-  color: inherit;
+  color: white;
   display: block;
   padding: 0.8rem 0;
   position: relative;
@@ -45,18 +45,19 @@
   left: 0;
   width: 0.4rem;
   height: 100%;
-  background-color: #0381ff48;
+  background-color: #da7b9377;
   transform-origin: bottom;
   transform: scale(0);
   overflow-x: hidden;
   transition: transform 0.4s, 0.2s width 0.2s cubic-bezier(1, -0.16, 0.6, 1.35);
 }
+
 .navItems .navItem a:hover::before {
   width: 100%;
   transform: scale(1);
 }
 .active {
-  background-color: #037fff;
+  background-color: #376e6f;
 }
 /* ======================Home page starts================================= */
 .home {
@@ -374,6 +375,7 @@
 .educationBox .educationLeft {
   font-size: calc(1em + 1vw);
   width: 30%;
+  padding-left: 2rem;
   color: yellow;
 }
 .educationBox .educationRight {

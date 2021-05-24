@@ -15,11 +15,9 @@ function HomePage() {
           <span> Chipui Kasar </span>
         </h1>
         <p>
-          Front-End/Ui Development (web based)
+          Front-End/Ui Developer (web based)
           <br />
-          Code once, run million of times
-          <br />
-          Stay Hungry! Stay Foolish
+          より多くのコーディング、より多くのデプロイ
         </p>
 
         <div className={styles.homeIcons}>

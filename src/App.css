@@ -1,10 +1,10 @@
 .App .sideBar {
   width: 16%;
   height: 100vh;
-  background-color: #131322;
+  background-color: #1b2125;
   position: fixed;
   z-index: 11;
-  border-right: 2px solid #44495f;
+  border-right: 2px solid #9b9eaa;
   transform-origin: left;
 }
 
@@ -75,7 +75,7 @@
 .App .mainContent {
   width: 84%;
   margin-left: 16%;
-  background-color: #10111b;
+  background-color: #151c20;
   min-height: 100vh;
   background-image: url(./img/dots.svg);
   display: grid;
@@ -122,7 +122,7 @@ body::-webkit-scrollbar-track {
   background-color: rgb(146, 151, 146);
 }
 span {
-  color: #037fff;
+  color: #246a6b;
 }
 @media (max-width: 411px) {
   html {
