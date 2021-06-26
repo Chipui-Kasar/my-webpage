@@ -19,7 +19,7 @@ function educationPage() {
           course={"BSc IT"}
         />
         <EducationSection
-          year={"2016-2014"}
+          year={"2014-2016"}
           school={"HRD Academy"}
           course={"10+2"}
         />
