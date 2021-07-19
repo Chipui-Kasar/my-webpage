@@ -415,7 +415,7 @@
   transform: scale(1);
 }
 .portfolioContainer .portfolios img {
-  border: 5px solid rgba(0, 0, 0, 0.548);
+  border: 8px solid rgba(97, 94, 94, 0.548);
   width: 100%;
   height: 30vh;
   object-fit: cover;
