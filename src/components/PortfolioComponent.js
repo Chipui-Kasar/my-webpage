@@ -9,7 +9,7 @@ function PortfolioComponent() {
         return (
           <div className={styles.portfolios} key={data.id}>
             <div className={styles.image}>
-              <img src={data.image} alt="" />
+              <img src={data.image} alt={data.alt} />
               <ul className={styles.linkHover}>
                 <li>
                   <a href={data.link} target="_blank" rel="noreferrer">
