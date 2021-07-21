@@ -10,7 +10,6 @@ import { useState } from "react";
 import Particles from "react-particles-js";
 function App() {
   const [navToggle, setNavToggle] = useState(false);
-
   const navClick = () => {
     setNavToggle(!navToggle);
   };
