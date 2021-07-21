@@ -17,7 +17,7 @@ function HomePage() {
             <span>
               <Typed
                 strings={[" Chipui Kasar", " Filler Kasar"]}
-                typeSpeed={60}
+                typeSpeed={70}
                 backSpeed={50}
                 loop
               />
