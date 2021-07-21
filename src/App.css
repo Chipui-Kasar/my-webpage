@@ -57,6 +57,11 @@
   margin-bottom: 0.5rem;
 }
 
+.tsparticles-canvas-el {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
 /*Media query starts*/
 @media (max-width: 1000px) {
   .App .navBtn {
@@ -98,6 +103,9 @@
 @media (max-width: 1000px) {
   .App .mainContent .content {
     margin: 2rem 2rem;
+  }
+  .particles {
+    display: none;
   }
 }
 

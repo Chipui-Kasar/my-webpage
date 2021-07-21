@@ -7,7 +7,7 @@ import Contact from "./pages/contactPage";
 import Portfolio from "./pages/portfolioPage";
 import { Switch, Route } from "react-router-dom";
 import { useState } from "react";
-
+import Particles from "react-particles-js";
 function App() {
   const [navToggle, setNavToggle] = useState(false);
 
@@ -29,6 +29,22 @@ function App() {
         <div className="content">
           <Switch>
             <Route path="/" exact>
+              <Particles
+                className="particles"
+                params={{
+                  particles: {
+                    number: 50,
+                    density: { enable: true, value_area: 900 },
+                    shape: {
+                      type: "circle",
+                      stroke: {
+                        width: 6,
+                        color: "#037fff",
+                      },
+                    },
+                  },
+                }}
+              />
               <HomePage />
             </Route>
 
