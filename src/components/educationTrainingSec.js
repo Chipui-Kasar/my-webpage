@@ -1,11 +1,24 @@
 import React from "react";
-import TitleComp from "../components/aboutTitleComp";
-
-function EducationTrainingSec() {
+import styles from "../styles.module.css";
+function EducationTrainingSec(props) {
   return (
     <>
-      <div>
-        <TitleComp title={"Trainings"} span={"いたずら"} />
+      <div className={styles.trainingBox}>
+        <div className={styles.trainingLeft}>
+          <h3>{props.course}</h3>
+        </div>
+
+        <div className={styles.trainingRight}>
+          <p>
+            {props.iconHead} {props.school}
+          </p>
+          <p>
+            {props.iconPlace} {props.place}
+          </p>
+          <p>
+            {props.iconTick} {props.year}
+          </p>
+        </div>
       </div>
     </>
   );

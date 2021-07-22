@@ -362,28 +362,73 @@
 .educationTitle {
   margin-bottom: 2rem;
 }
-
+.educationContainer {
+  border-left: 2px solid rgb(96, 96, 116);
+  margin-left: 50px;
+  padding-top: 10px;
+}
 .educationBox {
-  background-color: steelblue;
   display: flex;
-  border: 1px solid rgb(96, 96, 116);
-  padding: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   width: 100%;
   border-radius: 10px;
 }
-
 .educationBox .educationLeft {
-  font-size: calc(1em + 1vw);
-  width: 30%;
+  font-size: calc(1.4em + 1vw);
+  width: 35%;
   padding-left: 2rem;
   color: yellow;
 }
 .educationBox .educationRight {
-  font-size: calc(1em + 1vw);
+  font-size: calc(1.4em + 1vw);
   font-style: italic;
-  color: black;
-  width: 70%;
+  color: #999eaf;
+  width: 65%;
+  font-weight: 500;
+}
+@media (max-width: 668px) {
+  .educationContainer {
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+}
+
+/*Training section*/
+.trainingContainer {
+  font-weight: 500;
+}
+.trainingBox {
+  position: relative;
+  display: flex;
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.trainingLeft {
+  font-size: calc(1.2em + 1vw);
+  padding-left: 2rem;
+  width: 40%;
+  color: rgb(23, 106, 161);
+}
+.trainingRight {
+  border-left: 5px solid #757780;
+  padding-left: 20px;
+  font-size: calc(1.2em + 1vw);
+  font-style: italic;
+  color: #9aa55d;
+  width: 80%;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+@media (max-width: 668px) {
+  .trainingContainer {
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+  .trainingLeft {
+    padding-left: 0px;
+  }
 }
 /*Portfolio=================================*/
 .portfolioContainer {

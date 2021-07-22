@@ -6,14 +6,18 @@ function EducationSection(props) {
     <>
       <div className={styles.educationBox}>
         <div className={styles.educationLeft}>
-          <p>Year : </p>
-          <p>School : </p>
-          <p>Course : </p>
+          <h3>{props.course}</h3>
         </div>
         <div className={styles.educationRight}>
-          <p>{props.year}</p>
-          <p>{props.school}</p>
-          <p>{props.course}</p>
+          <p>
+            {props.iconHead} {props.school}
+          </p>
+          <p>
+            {props.iconPlace} {props.place}
+          </p>
+          <p>
+            {props.iconTick} {props.year}
+          </p>
         </div>
       </div>
     </>
