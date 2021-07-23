@@ -54,7 +54,7 @@ function ContactForm(props) {
             <label>Phone</label>
             <input
               type="number"
-              name="number"
+              name="phone"
               placeholder="Enter Number"
               required
             />
