@@ -11,12 +11,15 @@ function AboutPage() {
     <>
       <MetaTags>
         <title>About Chipui Kasar, Chipui Kasar's Bio</title>
-        <meta name="title" content="About Chipui Kasar, Chipui Kasar's Bio" />
         <meta
-          name="Description"
+          name="og:title"
+          content="About Chipui Kasar, Chipui Kasar's Bio"
+        />
+        <meta
+          name="og:description"
           content=" I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
         />
-        <meta property="og:title" content="About Chipui Kasar" />
+
         <meta
           property="og:image"
           content={`https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png`}
