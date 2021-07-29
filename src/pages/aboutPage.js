@@ -5,11 +5,11 @@ import ImageSection from "../components/aboutImageSection";
 import AboutSkillsComp from "../components/aboutSkillsSection";
 import ServiceSection from "../components/aboutServiceSection";
 import { FaCode, FaCogs, FaLaptop } from "react-icons/fa";
-import MetaTags from "react-meta-tags";
+import Helmet from "react-meta-tags";
 function AboutPage() {
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>About Chipui Kasar, Chipui Kasar's Bio</title>
         <meta name="title" content="About Chipui Kasar, Chipui Kasar's Bio" />
         <meta
@@ -40,7 +40,7 @@ function AboutPage() {
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/about"
         ></link>
-      </MetaTags>
+      </Helmet>
       <div className={styles.about}>
         <TitleComp title={"About Me"} span={"About Me"} />
         <ImageSection />
