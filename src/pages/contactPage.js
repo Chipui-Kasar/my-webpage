@@ -9,10 +9,31 @@ import ContactItem from "../components/contactItem";
 import styles from "../styles.module.css";
 import TitleComp from "../components/aboutTitleComp";
 import ContactForm from "../components/contactForm";
-
+import MetaTags from "react-meta-tags";
 function ContactPage() {
   return (
     <>
+      <MetaTags>
+        <title>Contact Chipui Kasar</title>
+        <meta name="title" content="Contact Chipui Kasar" />
+        <meta
+          name="Description"
+          content="If You have any questions, concern or issues, I'm Here to help you. Fill up the form to get  in touch with me"
+        />
+        <meta property="og:title" content="Contact Chipui Kasar" />
+        <meta
+          property="og:image"
+          content={`https://chipuikasarpage.netlify.app/static/media/image.a63e7c13.png`}
+        />
+        <meta
+          name="Keywords"
+          content="Contact Whats app, Github, Email, phone, Address"
+        />
+        <link
+          rel="canonical"
+          href="https://chipuikasarpage.netlify.app/portfolio"
+        ></link>
+      </MetaTags>
       <div className={styles.contactTitle}>
         <TitleComp title={"Contact"} span={"Contact"} />
       </div>

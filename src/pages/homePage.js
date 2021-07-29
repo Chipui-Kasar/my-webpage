@@ -3,6 +3,7 @@ import styles from "../styles.module.css";
 import { FaFacebook, FaGithub, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Typed from "react-typed";
+import MetaTags from "react-meta-tags";
 
 const handleUrl = url => {
   return () => window.open(url, "_blank");
@@ -10,6 +11,32 @@ const handleUrl = url => {
 function HomePage() {
   return (
     <>
+      <MetaTags>
+        <title>
+          Chipui Kasar's Official Webpage | My Personal Portfolio | My Resume/CV
+          | Front-End Developer
+        </title>
+        <meta
+          name="title"
+          content="Chipui Kasar's Official Webpage | My Personal Portfolio | My Resume/CV | Front-End Developer"
+        />
+        <meta
+          name="Description"
+          content=" I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
+        />
+        <meta
+          property="og:title"
+          content="Chipui Kasar's Official Webpage | My Personal Portfolio | My Resume/CV | Front-End Developer"
+        />
+        <meta
+          property="og:image"
+          content={`https://chipuikasarpage.netlify.app/static/media/image.a63e7c13.png`}
+        />
+        <link
+          rel="canonical"
+          href="https://chipuikasarpage.netlify.app/"
+        ></link>
+      </MetaTags>
       <div className={styles.home}>
         <div className={styles.homeHeader}>
           <h1 className={styles.headerText}>
