@@ -20,6 +20,10 @@ function ContactPage() {
           name="Description"
           content="If You have any questions, concern or issues, I'm Here to help you. Fill up the form to get  in touch with me"
         />
+        <meta
+          property="og:description"
+          content="If You have any questions, concern or issues, I'm Here to help you. Fill up the form to get  in touch with me"
+        />
         <meta property="og:title" content="Contact Chipui Kasar" />
         <meta
           property="og:image"
@@ -29,6 +33,14 @@ function ContactPage() {
           name="Keywords"
           content="Contact Whats app, Github, Email, phone, Address"
         />
+        <meta
+          property="og:keywords"
+          content="Contact Whats app, Github, Email, phone, Address"
+        />
+        <meta
+          property="og:url"
+          content="https://chipuikasarpage.netlify.app/contact"
+        ></meta>
         <link
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/portfolio"

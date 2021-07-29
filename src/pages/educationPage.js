@@ -20,7 +20,11 @@ function educationPage() {
         <title>Chipui Kasar's Education History</title>
         <meta name="title" content="Chipui Kasar's Education History" />
         <meta
-          name="Description"
+          name="description"
+          content="I Passed out my 10th in 2014 from Savio High School, and Class 12th in 2016 from HRD Academy, Imphal. And not only that, I completed my graduation with BSC-IT in the year 2019."
+        />
+        <meta
+          property="og:description"
           content="I Passed out my 10th in 2014 from Savio High School, and Class 12th in 2016 from HRD Academy, Imphal. And not only that, I completed my graduation with BSC-IT in the year 2019."
         />
         <meta property="og:title" content="Education History of Chipui Kasar" />
@@ -29,9 +33,17 @@ function educationPage() {
           content={`https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png`}
         />
         <meta
-          name="Keywords"
+          name="keywords"
           content="Chipuimi Kasar, Chipui kasar, Savio High School, HRD Academy, Vidya Jyoti Eduversity, Besant Technologies chennai and Infocampus, Bangalore"
         />
+        <meta
+          property="og:keywords"
+          content="Chipuimi Kasar, Chipui kasar, Savio High School, HRD Academy, Vidya Jyoti Eduversity, Besant Technologies chennai and Infocampus, Bangalore"
+        />
+        <meta
+          property="og:url"
+          content="https://chipuikasarpage.netlify.app/education"
+        ></meta>
         <link
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/education"

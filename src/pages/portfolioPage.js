@@ -10,7 +10,11 @@ function PortfolioPage() {
         <title>Projects of my Front End Development</title>
         <meta name="title" content="Chipui Kasar's Project List" />
         <meta
-          name="Description"
+          name="description"
+          content="Complete Projects of my Front End Development"
+        />
+        <meta
+          property="og:description"
           content="Complete Projects of my Front End Development"
         />
         <meta
@@ -25,6 +29,10 @@ function PortfolioPage() {
           name="Keywords"
           content="Mobile Legends Image, Miya, Alucard, Johnson, Khangkhui Khunou, Portfolio, Savio High School"
         />
+        <meta
+          property="og:url"
+          content="https://chipuikasarpage.netlify.app/portfolio"
+        ></meta>
         <link
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/portfolio"
