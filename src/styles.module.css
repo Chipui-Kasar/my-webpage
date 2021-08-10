@@ -163,7 +163,7 @@
 }
 .imageSection .img {
   height: 70vh;
-
+  width: 100%;
   margin-bottom: 2rem;
 }
 .imageSection .img img {
