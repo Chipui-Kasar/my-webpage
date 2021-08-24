@@ -76,9 +76,9 @@ function AboutPage() {
           />
           <ServiceSection
             img={<FaLaptop size="70px" color="rgb(0, 208, 255)" />}
-            title={"Digital Marketing"}
+            title={"Other Services"}
             text={
-              " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of theprinting and typesetting industry."
+              "Get your certificates like Domicile, ST, Permanent Resident, Income, Etc at just Rs 20 per certificate. You don't have a Pan Card and you want to apply but they're charging you alot? No problem submit your Aadhar card no.(should link with your mobile no.) and get at just  Rs 100 "
             }
           />
         </div>
