@@ -27,7 +27,8 @@ const PortfolioData = [
     id: 4,
     alt: "Khangkhui Khunou, Khangkhui Phungdhar",
     link: "https://khangkhuiPhungdhar.netlify.app/",
-    image: "https://khangkhuikhunou.netlify.app/images/IMG_20171231_115945.jpg",
+    image:
+      "https://khangkhuiphungdhar.netlify.app/static/media/khangkhui.3f06e7b2.jpeg",
     title: "Khangkhui Khunou (ReactJS)",
   },
   {
