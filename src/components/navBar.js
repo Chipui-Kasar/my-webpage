@@ -29,6 +29,11 @@ function NavBar(props) {
               Education
             </NavLink>
           </li>
+          {/* <li className={styles.navItem}>
+            <NavLink to="/experience" exact activeClassName={styles.active}>
+              Experience
+            </NavLink>
+          </li> */}
           <li className={styles.navItem}>
             <NavLink to="/portfolio" exact activeClassName={styles.active}>
               Portfolios
