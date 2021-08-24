@@ -3,14 +3,17 @@ import image from "../img/image.png";
 import { NavLink } from "react-router-dom";
 import styles from "../styles.module.css";
 
-function NavBar() {
+function NavBar(props) {
   return (
     <div className={styles.navBar}>
       <nav className={styles.navSection}>
         <div className={styles.profile}>
           <img className={styles.myPic} src={image} alt="" />
         </div>
-        <ul className={styles.navItems}>
+        <ul
+          className={styles.navItems}
+          onClick={() => props.setNavToggle(false)}
+        >
           <li className={styles.navItem}>
             <NavLink to="/" exact activeClassName={styles.active}>
               Home
