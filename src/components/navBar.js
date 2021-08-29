@@ -47,7 +47,7 @@ function NavBar(props) {
           </li>
         </ul>
         <footer className={styles.footer}>
-          <p>@2021 All Rights Reserved</p>
+          <p>@{new Date().getFullYear()} All Rights Reserved</p>
         </footer>
       </nav>
     </div>
