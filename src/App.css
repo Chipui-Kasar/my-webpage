@@ -19,6 +19,7 @@
 @media (max-width: 411px) {
   .App .sideBar {
     width: 50%;
+    transition: all 0.7s ease-in-out;
   }
 }
 @media (max-width: 1000px) {
