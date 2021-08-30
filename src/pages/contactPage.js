@@ -27,7 +27,7 @@ function ContactPage() {
         <meta property="og:title" content="Contact Chipui Kasar" />
         <meta
           property="og:image"
-          content={`https://chipuikasarpage.netlify.app/static/media/image.a63e7c13.png`}
+          content={`//chipuikasarpage.netlify.app/static/media/image.a63e7c13.png`}
         />
         <meta
           name="Keywords"
@@ -39,11 +39,11 @@ function ContactPage() {
         />
         <meta
           property="og:url"
-          content="https://chipuikasarpage.netlify.app/contact"
+          content="//chipuikasarpage.netlify.app/contact"
         ></meta>
         <link
           rel="canonical"
-          href="https://chipuikasarpage.netlify.app/portfolio"
+          href="//chipuikasarpage.netlify.app/portfolio"
         ></link>
       </MetaTags>
       <div className={styles.contactTitle}>
@@ -52,7 +52,7 @@ function ContactPage() {
       <div className={styles.contactPage}>
         <div className={styles.googleMap}>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14456.010832976775!2d94.40780002427503!3d25.067897343301716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374858a895a9ff5f%3A0x73ec9280e243e411!2sKhangkhui%20Khunou%2C%20Manipur%20795142!5e0!3m2!1sen!2sin!4v1620997132264!5m2!1sen!2sin"
+            src="//www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14456.010832976775!2d94.40780002427503!3d25.067897343301716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x374858a895a9ff5f%3A0x73ec9280e243e411!2sKhangkhui%20Khunou%2C%20Manipur%20795142!5e0!3m2!1sen!2sin!4v1620997132264!5m2!1sen!2sin"
             title="gmap"
             width="600"
             height="450"
