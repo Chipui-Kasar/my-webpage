@@ -5,7 +5,7 @@ import ImageSection from "../components/aboutImageSection";
 import AboutSkillsComp from "../components/aboutSkillsSection";
 import ServiceSection from "../components/aboutServiceSection";
 import { FaCode, FaCogs, FaLaptop } from "react-icons/fa";
-import Helmet from "react-meta-tags";
+import { Helmet } from "react-meta-tags";
 function AboutPage() {
   return (
     <>

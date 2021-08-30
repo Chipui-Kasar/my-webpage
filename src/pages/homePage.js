@@ -3,7 +3,7 @@ import styles from "../styles.module.css";
 import { FaFacebook, FaGithub, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Typed from "react-typed";
-import MetaTags from "react-meta-tags";
+import { MetaTags } from "react-meta-tags";
 
 const handleUrl = url => {
   return () => window.open(url, "_blank");

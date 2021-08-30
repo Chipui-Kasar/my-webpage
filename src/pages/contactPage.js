@@ -9,7 +9,7 @@ import ContactItem from "../components/contactItem";
 import styles from "../styles.module.css";
 import TitleComp from "../components/aboutTitleComp";
 import ContactForm from "../components/contactForm";
-import MetaTags from "react-meta-tags";
+import { MetaTags } from "react-meta-tags";
 function ContactPage() {
   return (
     <>

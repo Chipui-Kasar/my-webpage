@@ -12,7 +12,7 @@ import {
   FaSchool,
   FaVoteYea,
 } from "react-icons/fa";
-import MetaTags from "react-meta-tags";
+import { MetaTags } from "react-meta-tags";
 function educationPage() {
   return (
     <>

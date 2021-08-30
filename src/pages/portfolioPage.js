@@ -2,7 +2,7 @@ import React from "react";
 import TitleComp from "../components/aboutTitleComp";
 import PortfolioComponent from "../components/PortfolioComponent";
 import styles from "../styles.module.css";
-import MetaTags from "react-meta-tags";
+import { MetaTags } from "react-meta-tags";
 function PortfolioPage() {
   return (
     <>
