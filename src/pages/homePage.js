@@ -21,6 +21,7 @@ function HomePage() {
           content="Chipui Kasar's Official Webpage | My Personal Portfolio | My Resume/CV | Front-End Developer"
         />
         <meta
+          id="meta-description"
           name="description"
           content=" I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
         />
@@ -29,10 +30,12 @@ function HomePage() {
           content=" I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
         />
         <meta
+          id="og-title"
           property="og:title"
           content="Chipui Kasar's Official Webpage | My Personal Portfolio | My Resume/CV | Front-End Developer"
         />
         <meta
+          id="og-image"
           property="og:image"
           content={`https://chipuikasarpage.netlify.app/static/media/image.a63e7c13.png`}
         />

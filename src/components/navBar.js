@@ -8,7 +8,12 @@ function NavBar(props) {
     <div className={styles.navBar}>
       <nav className={styles.navSection}>
         <div className={styles.profile}>
-          <img className={styles.myPic} src={image} alt="" />
+          <img
+            className={styles.myPic}
+            src={image}
+            alt="Chipui Kasar"
+            width="100%"
+          />
         </div>
         <ul
           className={styles.navItems}
