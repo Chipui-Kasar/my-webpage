@@ -12,10 +12,10 @@ function ImageSection() {
           <img className={styles.imageSectionImage} src={about} alt="" />
         </div>
         <div className={styles.aboutInfo}>
-          <h4>
+          <h1>
             I'm
             <span> Chipui Kasar </span>
-          </h4>
+          </h1>
           <p className={styles.aboutInfoText}>
             I'm from North-East India and I'm a ReactJs Developer, I love New
             things & I really enjoy working on cutting-edge projects and
