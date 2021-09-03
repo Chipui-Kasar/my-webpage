@@ -32,7 +32,7 @@ function AboutPage() {
         />
         <meta
           property="og:image"
-          content={`https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png`}
+          content="https://pbs.twimg.com/profile_banners/2483944999/1627642530/1500x500"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -50,7 +50,7 @@ function AboutPage() {
         />
         <meta
           property="twitter:image"
-          content="https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png"
+          content="https://pbs.twimg.com/profile_banners/2483944999/1627642530/1500x500"
         />
 
         <link

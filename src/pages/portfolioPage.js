@@ -27,7 +27,10 @@ function PortfolioPage() {
           property="og:description"
           content="Complete Projects of my Front End Development"
         />
-        <meta property="og:image" content="%PUBLIC_URL%/MTHome.JPG" />
+        <meta
+          property="og:image"
+          content="https://pbs.twimg.com/profile_images/856784074702069761/rXdhAD0v_400x400.jpg"
+        />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -42,7 +45,10 @@ function PortfolioPage() {
           property="twitter:description"
           content="Here are some of the Projects that I Have created. Mobile Legend, Job Portal, Portfolio or personal website, Khangkhui Khunou, "
         />
-        <meta property="twitter:image" content="%PUBLIC_URL%/MTHome.JPG" />
+        <meta
+          property="twitter:image"
+          content="https://pbs.twimg.com/profile_images/856784074702069761/rXdhAD0v_400x400.jpg"
+        />
         <link
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/portfolio"

@@ -30,7 +30,7 @@ function educationPage() {
         />
         <meta
           property="og:image"
-          content={`https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png`}
+          content={`https://www.hrdacademy.in/images/slide/slide5.jpg`}
         />
 
         <meta
@@ -53,7 +53,7 @@ function educationPage() {
         />
         <meta
           property="twitter:image"
-          content="https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png"
+          content="https://www.hrdacademy.in/images/slide/slide5.jpg"
         />
         <link
           rel="canonical"
