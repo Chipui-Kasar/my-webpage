@@ -9,11 +9,11 @@ import ContactItem from "../components/contactItem";
 import styles from "../styles.module.css";
 import TitleComp from "../components/aboutTitleComp";
 import ContactForm from "../components/contactForm";
-import { MetaTags } from "react-meta-tags";
+import { Helmet } from "react-helmet";
 function ContactPage() {
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>Contact Chipui Kasar</title>
         <meta name="title" content="Contact Chipui Kasar" />
         <meta
@@ -54,7 +54,8 @@ function ContactPage() {
           rel="canonical"
           href="//chipuikasarpage.netlify.app/contact"
         ></link>
-      </MetaTags>
+      </Helmet>
+
       <div className={styles.contactTitle}>
         <TitleComp title={"Contact"} span={"Contact"} />
       </div>
@@ -101,4 +102,4 @@ function ContactPage() {
   );
 }
 
-export default ContactPage;
+export default React.memo(ContactPage);

@@ -3,7 +3,7 @@ import styles from "../styles.module.css";
 import { FaFacebook, FaGithub, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Typed from "react-typed";
-import { MetaTags } from "react-meta-tags";
+import { Helmet } from "react-helmet";
 import metatagpic from "../img/MetaTags/MTHome.JPG";
 
 const handleUrl = url => {
@@ -12,7 +12,7 @@ const handleUrl = url => {
 function HomePage() {
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title> Chipui Kasar's Official site | My Personal Portfolio </title>
         <meta
           name="title"
@@ -39,7 +39,10 @@ function HomePage() {
         <meta property="og:image" content={metatagpic} />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta
+          property="twitter:url"
+          content="https://chipuikasarpage.netlify.app/"
+        />
         <meta
           property="twitter:title"
           content=" Chipui Kasar's Official site | My Personal Portfolio "
@@ -48,16 +51,13 @@ function HomePage() {
           property="twitter:description"
           content="Check out my profile.. I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
         />
-        <meta
-          property="twitter:image"
-          content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
-        />
+        <meta property="twitter:image" content={metatagpic} />
 
         <link
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/"
         ></link>
-      </MetaTags>
+      </Helmet>
       <div className={styles.home}>
         <div className={styles.homeHeader}>
           <h1 className={styles.headerText}>
@@ -107,4 +107,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default React.memo(HomePage);

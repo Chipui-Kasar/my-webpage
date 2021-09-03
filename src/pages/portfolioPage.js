@@ -2,11 +2,11 @@ import React from "react";
 import TitleComp from "../components/aboutTitleComp";
 import PortfolioComponent from "../components/PortfolioComponent";
 import styles from "../styles.module.css";
-import { MetaTags } from "react-meta-tags";
+import { Helmet } from "react-helmet";
 function PortfolioPage() {
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>Projects of my Front End Development</title>
         <meta name="title" content="Chipui Kasar's Project List" />
         <meta
@@ -53,7 +53,7 @@ function PortfolioPage() {
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/portfolio"
         ></link>
-      </MetaTags>
+      </Helmet>
       <div className={styles.contactTitle}>
         <TitleComp title={"Portfolio"} span={"Portfolio"} />
         <PortfolioComponent />
@@ -62,4 +62,4 @@ function PortfolioPage() {
   );
 }
 
-export default PortfolioPage;
+export default React.memo(PortfolioPage);

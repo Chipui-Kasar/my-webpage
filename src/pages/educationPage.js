@@ -12,11 +12,11 @@ import {
   FaSchool,
   FaVoteYea,
 } from "react-icons/fa";
-import { MetaTags } from "react-meta-tags";
+import { Helmet } from "react-helmet";
 function educationPage() {
   return (
     <>
-      <MetaTags>
+      <Helmet>
         <title>Chipui Kasar's Education History</title>
         <meta name="title" content="Chipui Kasar's Education History" />
         <meta
@@ -59,7 +59,7 @@ function educationPage() {
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/education"
         ></link>
-      </MetaTags>
+      </Helmet>
       <div className={styles.educationTitle}>
         <TitleComp title={"Education"} span={"History"} />
       </div>
@@ -144,4 +144,4 @@ function educationPage() {
   );
 }
 
-export default educationPage;
+export default React.memo(educationPage);

@@ -19,7 +19,7 @@ function AboutPage() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://chipuikasarpage.netlify.app/"
+          content="https://chipuikasarpage.netlify.app/about"
         />
 
         <meta
