@@ -10,6 +10,7 @@ import styles from "../styles.module.css";
 import TitleComp from "../components/aboutTitleComp";
 import ContactForm from "../components/contactForm";
 import { Helmet } from "react-helmet";
+import ogImage from "../img/MetaTags/ContactMT.jpg";
 function ContactPage() {
   return (
     <>
@@ -31,10 +32,7 @@ function ContactPage() {
           property="og:description"
           content="If You have any questions, concern or issues, I'm Here to help you. Fill up the form to get  in touch with me"
         />
-        <meta
-          property="og:image"
-          content={`//chipuikasarpage.netlify.app/static/media/image.a63e7c13.png`}
-        />
+        <meta property="og:image" content={ogImage} />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
@@ -46,10 +44,7 @@ function ContactPage() {
           property="twitter:description"
           content="If You have any questions, concern or issues, I'm Here to help you. Fill up the form to get  in touch with me"
         />
-        <meta
-          property="twitter:image"
-          content="https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png"
-        />
+        <meta property="twitter:image" content={ogImage} />
         <link
           rel="canonical"
           href="//chipuikasarpage.netlify.app/contact"
