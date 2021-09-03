@@ -16,10 +16,12 @@ function AboutPage() {
           name="description"
           content=" I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
         />
+        <meta property="og:type" content="website" />
         <meta
-          name="image"
-          content={`https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png`}
+          property="og:url"
+          content="https://chipuikasarpage.netlify.app/"
         />
+
         <meta
           property="og:title"
           content="About Chipui Kasar, Chipui Kasar's Bio"
@@ -32,10 +34,25 @@ function AboutPage() {
           property="og:image"
           content={`https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png`}
         />
+
+        <meta property="twitter:card" content="summary_large_image" />
         <meta
-          property="og:url"
-          content="https://chipuikasarpage.netlify.app/about"
-        ></meta>
+          property="twitter:url"
+          content="https://chipuikasarpage.netlify.app/"
+        />
+        <meta
+          property="twitter:title"
+          content="About Chipui Kasar, Chipui Kasar's Bio"
+        />
+        <meta
+          property="twitter:description"
+          content="I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
+        />
+        <meta
+          property="twitter:image"
+          content="https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png"
+        />
+
         <link
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/about"

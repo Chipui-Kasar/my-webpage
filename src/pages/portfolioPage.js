@@ -13,26 +13,42 @@ function PortfolioPage() {
           name="description"
           content="Complete Projects of my Front End Development"
         />
+
+        <meta property="og:type" content="website" />
         <meta
-          property="og:description"
-          content="Complete Projects of my Front End Development"
+          property="og:url"
+          content="https://chipuikasarpage.netlify.app/portfolio"
         />
         <meta
           property="og:title"
           content="Projects that I Have Build. Mobile Legend, Job Portal, Portfolio or personal website, Khangkhui Khunou, "
         />
         <meta
+          property="og:description"
+          content="Complete Projects of my Front End Development"
+        />
+        <meta
           property="og:image"
           content={`https://chipuifirstproject.netlify.app/hero/wall.jpg`}
         />
+
+        <meta property="twitter:card" content="summary_large_image" />
         <meta
-          name="Keywords"
-          content="Mobile Legends Image, Miya, Alucard, Johnson, Khangkhui Khunou, Portfolio, Savio High School"
+          property="twitter:url"
+          content="https://chipuikasarpage.netlify.app/portfolio"
         />
         <meta
-          property="og:url"
-          content="https://chipuikasarpage.netlify.app/portfolio"
-        ></meta>
+          property="twitter:title"
+          content="About Chipui Kasar, Chipui Kasar's Bio"
+        />
+        <meta
+          property="twitter:description"
+          content="Here are some of the Projects that I Have created. Mobile Legend, Job Portal, Portfolio or personal website, Khangkhui Khunou, "
+        />
+        <meta
+          property="twitter:image"
+          content="https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png"
+        />
         <link
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/portfolio"

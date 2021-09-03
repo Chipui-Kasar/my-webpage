@@ -17,33 +17,42 @@ function ContactPage() {
         <title>Contact Chipui Kasar</title>
         <meta name="title" content="Contact Chipui Kasar" />
         <meta
-          name="Description"
+          name="description"
           content="If You have any questions, concern or issues, I'm Here to help you. Fill up the form to get  in touch with me"
         />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://chipuikasarpage.netlify.app/contact"
+        />
+        <meta property="og:title" content="Contact Chipui Kasar" />
+
         <meta
           property="og:description"
           content="If You have any questions, concern or issues, I'm Here to help you. Fill up the form to get  in touch with me"
         />
-        <meta property="og:title" content="Contact Chipui Kasar" />
         <meta
           property="og:image"
           content={`//chipuikasarpage.netlify.app/static/media/image.a63e7c13.png`}
         />
+
+        <meta property="twitter:card" content="summary_large_image" />
         <meta
-          name="Keywords"
-          content="Contact Whats app, Github, Email, phone, Address"
+          property="twitter:url"
+          content="https://chipuikasarpage.netlify.app/contact"
+        />
+        <meta property="twitter:title" content="Contact Chipui Kasar" />
+        <meta
+          property="twitter:description"
+          content="If You have any questions, concern or issues, I'm Here to help you. Fill up the form to get  in touch with me"
         />
         <meta
-          property="og:keywords"
-          content="Contact Whats app, Github, Email, phone, Address"
+          property="twitter:image"
+          content="https://chipuikasarpage.netlify.app/static/media/about.29ccae07.png"
         />
-        <meta
-          property="og:url"
-          content="//chipuikasarpage.netlify.app/contact"
-        ></meta>
         <link
           rel="canonical"
-          href="//chipuikasarpage.netlify.app/portfolio"
+          href="//chipuikasarpage.netlify.app/contact"
         ></link>
       </MetaTags>
       <div className={styles.contactTitle}>
