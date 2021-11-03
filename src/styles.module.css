@@ -430,6 +430,11 @@
     padding-left: 0px;
   }
 }
+
+/*------------------Experience Component-------------------------*/
+.experienceContainer {
+  margin-top: 40px;
+}
 /*Portfolio=================================*/
 .portfolioContainer {
   margin-top: 40px;

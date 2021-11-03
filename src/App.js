@@ -8,6 +8,7 @@ import Portfolio from "./pages/portfolioPage";
 import { Switch, Route } from "react-router-dom";
 import { useState } from "react";
 import Particles from "react-particles-js";
+import Experience from "./pages/experiencePage";
 function App() {
   const [navToggle, setNavToggle] = useState(false);
   const navClick = () => {
@@ -53,6 +54,9 @@ function App() {
 
             <Route path="/education" exact>
               <Education />
+            </Route>
+            <Route path="/experience" exact>
+              <Experience />
             </Route>
 
             <Route path="/portfolio" exact>

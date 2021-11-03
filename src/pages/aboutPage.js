@@ -52,7 +52,6 @@ function AboutPage() {
           property="twitter:image"
           content="https://pbs.twimg.com/profile_banners/2483944999/1627642530/1500x500"
         />
-
         <link
           rel="canonical"
           href="https://chipuikasarpage.netlify.app/about"
