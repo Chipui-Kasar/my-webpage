@@ -68,10 +68,10 @@ function AboutPage() {
           <AboutSkillsComp skill={"JQuery"} progress={"40%"} width={"40%"} />
           <AboutSkillsComp
             skill={"Javascript"}
-            progress={"50%"}
-            width={"50%"}
+            progress={"65%"}
+            width={"65%"}
           />
-          <AboutSkillsComp skill={"ReactJs"} progress={"50%"} width={"50%"} />
+          <AboutSkillsComp skill={"ReactJs"} progress={"60%"} width={"60%"} />
         </div>
 
         <TitleComp title={"Services"} span={"Services"} />

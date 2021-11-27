@@ -5,6 +5,8 @@ import { FaDownload } from "react-icons/fa";
 import resume from "../img/Resume.png";
 
 function ImageSection() {
+  var thisYear = new Date().getFullYear();
+
   return (
     <>
       <div className={styles.imageSection}>
@@ -37,7 +39,7 @@ function ImageSection() {
             </div>
             <div className={styles.aboutDetailsRight}>
               <p>: Chipui Kasar</p>
-              <p>: 23</p>
+              <p>: {thisYear - 1998}</p>
               <p>: Indian</p>
               <p>: English, Hindi, Manipuri, Tangkhul</p>
               <p>: Hno. 22, Khangkhui Khunou, Ukhrul</p>

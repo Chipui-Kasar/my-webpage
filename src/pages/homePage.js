@@ -10,6 +10,8 @@ const handleUrl = url => {
   return () => window.open(url, "_blank");
 };
 function HomePage() {
+  //greeting base on time
+
   return (
     <>
       <Helmet>
@@ -64,7 +66,7 @@ function HomePage() {
             Hello, I'm{" "}
             <span>
               <Typed
-                strings={[" Chipui Kasar", " Filler Kasar"]}
+                strings={[" Chipui Kasar", " Za̲puma̲"]}
                 typeSpeed={70}
                 backSpeed={50}
                 loop

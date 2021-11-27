@@ -9,6 +9,7 @@ import { Switch, Route } from "react-router-dom";
 import { useState } from "react";
 import Particles from "react-particles-js";
 import Experience from "./pages/experiencePage";
+
 function App() {
   const [navToggle, setNavToggle] = useState(false);
   const navClick = () => {
