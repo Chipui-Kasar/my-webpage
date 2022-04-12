@@ -1,4 +1,3 @@
-import Savio from "../img/savioschool.png";
 import Youth from "../img/youthdiaries.png";
 
 const PortfolioData = [
@@ -33,13 +32,6 @@ const PortfolioData = [
   },
   {
     id: 5,
-    alt: "Savio School",
-    link: "https://www.google.com/search?q=z+or+r+twice&sxsrf=ALeKk02JEITNAneNFA0-w_FuE9aRQ06-dg%3A1626669686585&ei=dgL1YIqbI5qF4-EP85OTiAo&oq=z+or+r+twice&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyAggAMgQIABBDMgsIABCxAxCDARCRAjICCAAyBAgAEEMyAggAMggIABCxAxCDATICCAAyAggAOgcIABBHELADOgYIABAHEB46CAgAEAcQChAeSgQIQRgAUOMQWNwTYP8ZaAFwAngAgAHTAYgB4gSSAQUwLjEuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=gws-wiz&ved=0ahUKEwiKrtfmqO7xAhWawjgGHfPJBKEQ4dUDCA4&uact=5",
-    image: Savio,
-    title: "Savio High School (Ongoing)",
-  },
-  {
-    id: 6,
     alt: "The Youth Diaries | Adventure",
     link: "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
     image: Youth,

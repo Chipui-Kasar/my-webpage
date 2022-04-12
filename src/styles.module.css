@@ -15,10 +15,12 @@
   border-bottom: 2px solid #5f6477;
 }
 .navBar nav .profile img {
-  width: 70%;
+  width: 140px;
   border-radius: 100%;
   border: 3px solid #376e6f;
   margin-bottom: 1rem;
+  height: 135px;
+  object-fit: cover;
 }
 
 /* ================================== */
@@ -297,11 +299,16 @@
   flex-wrap: wrap;
 }
 @media (max-width: 1000px) {
+  .servicesContainer:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 768px) {
   .servicesContainer {
     flex-direction: column;
   }
-  .servicesContainer:not(:last-child) {
-    margin-bottom: 2rem;
+  .service {
+    width: 100% !important;
   }
 }
 
@@ -451,7 +458,7 @@
 }
 .portfolioContainer .portfolios {
   background-color: #383d44;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 3px solid rgb(124, 124, 124);
 }
 .portfolioContainer .portfolios .image {

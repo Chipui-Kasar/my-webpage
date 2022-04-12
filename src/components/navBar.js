@@ -1,5 +1,4 @@
 import React from "react";
-import image from "../img/image.png";
 import { NavLink } from "react-router-dom";
 import styles from "../styles.module.css";
 
@@ -10,7 +9,7 @@ function NavBar(props) {
         <div className={styles.profile}>
           <img
             className={styles.myPic}
-            src={image}
+            src="https://pbs.twimg.com/profile_banners/2483944999/1627642530/1500x500"
             alt="Chipui Kasar"
             width="100%"
           />
