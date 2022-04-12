@@ -4,7 +4,7 @@ import TitleComp from "../components/aboutTitleComp";
 import ImageSection from "../components/aboutImageSection";
 import AboutSkillsComp from "../components/aboutSkillsSection";
 import ServiceSection from "../components/aboutServiceSection";
-import { FaCode, FaMobileAlt, FaShopify } from "react-icons/fa";
+import { FaCode, FaMobileAlt, FaShopify, FaGrinHearts } from "react-icons/fa";
 import { MetaTags } from "react-meta-tags";
 function AboutPage() {
   return (
@@ -91,6 +91,13 @@ function AboutPage() {
             title={"Online Shopping"}
             text={
               "If shopping doesn't make you happy, then you're in the wrong shop."
+            }
+          />
+          <ServiceSection
+            img={<FaGrinHearts size="70px" color="rgb(255,255,0)" />}
+            title={"Flirting"}
+            text={
+              "It’s said that nothing lasts forever. Will you be my nothing?"
             }
           />
         </div>

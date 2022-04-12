@@ -82,7 +82,7 @@ function ContactPage() {
           />
           <ContactItem
             icon={<FaSearchLocation size="50px" color={"green"} />}
-            text={"Hno 22, Khangkhui Khunou"}
+            text={"Paradise, Heaven Highway"}
             title={"Address"}
           />
         </div>
