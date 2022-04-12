@@ -62,33 +62,25 @@ function AboutPage() {
         <ImageSection />
         <TitleComp title={"My Skills"} span={"My Skills"} />
         <div className={styles.skillsContainer}>
-          <AboutSkillsComp skill={"HTML"} progress={"60%"} width={"60%"} />
-          <AboutSkillsComp skill={"CSS"} progress={"50%"} width={"50%"} />
-          <AboutSkillsComp skill={"BootStrap"} progress={"50%"} width={"50%"} />
-          <AboutSkillsComp
-            skill={"Sharepoint(SPFx)"}
-            progress={"40%"}
-            width={"40%"}
-          />
-          <AboutSkillsComp
-            skill={"Javascript"}
-            progress={"65%"}
-            width={"65%"}
-          />
-          <AboutSkillsComp skill={"ReactJs"} progress={"60%"} width={"60%"} />
+          <AboutSkillsComp skill={"HTML"} progress={"60%"} />
+          <AboutSkillsComp skill={"CSS"} progress={"50%"} />
+          <AboutSkillsComp skill={"BootStrap"} progress={"60%"} />
+          <AboutSkillsComp skill={"Sharepoint(SPFx)"} progress={"40%"} />
+          <AboutSkillsComp skill={"Javascript"} progress={"65%"} />
+          <AboutSkillsComp skill={"ReactJs"} progress={"60%"} />
         </div>
 
         <TitleComp title={"My Hobbies"} span={"Hobbies"} />
         <div className={styles.servicesContainer}>
           <ServiceSection
-            img={<FaCode size="70px" color="#037fff" />}
+            img={<FaCode size="70px" color="rgb(34,139,34)" />}
             title={"Programming"}
             text={
               "Programming isn't about what you know; it's about what you can figure out. - Chris Pine"
             }
           />
           <ServiceSection
-            img={<FaMobileAlt size="70px" color="rgb(25, 94, 25)" />}
+            img={<FaMobileAlt size="70px" color="rgb(255,255,255)" />}
             title={"Mobile Games"}
             text={
               "Mobile games are important because it creates a within you a competitive mind"

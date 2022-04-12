@@ -12,7 +12,7 @@ function AboutSkillsComp(props) {
             <div className={styles.progress}>
               <div
                 className={styles.innerProgress}
-                style={{ width: props.width }}
+                style={{ width: props.progress }}
               ></div>
             </div>
           </div>
