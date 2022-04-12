@@ -4,7 +4,7 @@ import TitleComp from "../components/aboutTitleComp";
 import ImageSection from "../components/aboutImageSection";
 import AboutSkillsComp from "../components/aboutSkillsSection";
 import ServiceSection from "../components/aboutServiceSection";
-import { FaCode, FaCogs, FaLaptop } from "react-icons/fa";
+import { FaCode, FaMobileAlt, FaShopify } from "react-icons/fa";
 import { MetaTags } from "react-meta-tags";
 function AboutPage() {
   return (
@@ -65,7 +65,11 @@ function AboutPage() {
           <AboutSkillsComp skill={"HTML"} progress={"60%"} width={"60%"} />
           <AboutSkillsComp skill={"CSS"} progress={"50%"} width={"50%"} />
           <AboutSkillsComp skill={"BootStrap"} progress={"50%"} width={"50%"} />
-          <AboutSkillsComp skill={"JQuery"} progress={"40%"} width={"40%"} />
+          <AboutSkillsComp
+            skill={"Sharepoint(SPFx)"}
+            progress={"40%"}
+            width={"40%"}
+          />
           <AboutSkillsComp
             skill={"Javascript"}
             progress={"65%"}
@@ -74,27 +78,27 @@ function AboutPage() {
           <AboutSkillsComp skill={"ReactJs"} progress={"60%"} width={"60%"} />
         </div>
 
-        <TitleComp title={"Services"} span={"Services"} />
+        <TitleComp title={"My Hobbies"} span={"Hobbies"} />
         <div className={styles.servicesContainer}>
           <ServiceSection
             img={<FaCode size="70px" color="#037fff" />}
-            title={"Web Development"}
+            title={"Programming"}
             text={
-              " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of theprinting and typesetting industry."
+              "Programming isn't about what you know; it's about what you can figure out. - Chris Pine"
             }
           />
           <ServiceSection
-            img={<FaCogs size="70px" color="rgb(25, 94, 25)" />}
-            title={"Web Maintenance"}
+            img={<FaMobileAlt size="70px" color="rgb(25, 94, 25)" />}
+            title={"Mobile Games"}
             text={
-              " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of theprinting and typesetting industry."
+              "Mobile games are important because it creates a within you a competitive mind"
             }
           />
           <ServiceSection
-            img={<FaLaptop size="70px" color="rgb(0, 208, 255)" />}
-            title={"Other Services"}
+            img={<FaShopify size="70px" color="rgb(0, 208, 255)" />}
+            title={"Online Shopping"}
             text={
-              "Get your certificates like Domicile, ST, Permanent Resident, Income, Etc at just Rs 20 per certificate. You don't have a Pan Card and you want to apply but they're charging you alot? No problem submit your Aadhar card no.(should link with your mobile no.) and get at just  Rs 100 "
+              "If shopping doesn't make you happy, then you're in the wrong shop."
             }
           />
         </div>

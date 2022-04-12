@@ -294,6 +294,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
+  flex-wrap: wrap;
 }
 @media (max-width: 1000px) {
   .servicesContainer {
@@ -305,7 +306,7 @@
 }
 
 .service {
-  width: 95%;
+  width: 33%;
   margin-bottom: 1rem;
   background-color: #191d28;
   border-left: 2px solid #2e344e;
