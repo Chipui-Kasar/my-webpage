@@ -1,0 +1,140 @@
+.App .sideBar {
+  width: 16%;
+  height: 100vh;
+  background-color: #1b2125;
+  position: fixed;
+  z-index: 11;
+  border-right: 2px solid #9b9eaa;
+  transform-origin: left;
+}
+
+/*Media query starts*/
+@media (max-width: 1000px) {
+  .App .sideBar {
+    transition: all 0.4s ease-in-out;
+    transform: translateX(-100%);
+    width: 30%;
+  }
+}
+@media (max-width: 411px) {
+  .App .sideBar {
+    width: 50%;
+    transition: all 0.7s ease-in-out;
+  }
+}
+@media (max-width: 1000px) {
+  .App .navToggleB {
+    transition: all 0.4s ease-in-out;
+    transform: translateX(0);
+  }
+}
+/*Media query ends*/
+
+.App .navBtn {
+  position: absolute;
+  z-index: 10;
+  right: 10%;
+  top: 5%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.bar1,
+.bar2,
+.bar3 {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #3858cc;
+  pointer-events: none;
+  display: none;
+  border-radius: 20px;
+}
+.bar1,
+.bar2,
+.bar3:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.tsparticles-canvas-el {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+/*Media query starts*/
+@media (max-width: 1000px) {
+  .App .navBtn {
+    display: block;
+  }
+}
+@media (max-width: 1000px) {
+  .bar1,
+  .bar2,
+  .bar3 {
+    display: block;
+  }
+}
+/*Media query ends*/
+
+.App .mainContent {
+  width: 84%;
+  margin-left: 16%;
+  background-color: #151c20;
+  min-height: 100vh;
+  background-image: url(./img/dots.svg);
+  display: grid;
+  position: relative;
+}
+/*Media query starts*/
+@media (max-width: 1000px) {
+  .App .mainContent {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/*Media query ends*/
+
+.App .mainContent .content {
+  margin: 5rem 7rem;
+}
+
+@media (max-width: 1000px) {
+  .App .mainContent .content {
+    margin: 2rem 2rem;
+  }
+  .particles {
+    display: none;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #a4acc4;
+  font-family: "M Plus Rounded 1c", sans-serif;
+  font-size: 0.8rem;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 255, 0.705);
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-track {
+  background-color: rgb(146, 151, 146);
+}
+span {
+  color: #246a6b;
+}
+@media (max-width: 411px) {
+  html {
+    font-size: 90%;
+  }
+}
