@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800;900&display=swap");
+.App .mainContent .content {
+  margin: 0;
+}
+.palmContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: #f1f1f1; */
+  /* background: #ff2a2a; */
+  background: url("https://thumbs.dreamstime.com/b/easter-sunday-concept-empty-tomb-stone-cross-meadow-sunrise-background-high-resolution-easter-sunday-concept-empty-tomb-180153375.jpg");
+  cursor: pointer;
+  z-index: 1;
+}
+.palmContainer h1 {
+  visibility: hidden;
+}
+/* keep text at center */
+
+.palmContainer .box {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+}
+.palmContainer .box::before {
+  content: "";
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(to right, #000, transparent); */
+  background: linear-gradient(to right, #fff, transparent);
+  opacity: 0.1;
+  transform: rotate(45deg);
+  transform-origin: left;
+}
+.palmContainer .box .circle {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(135deg, #fff, #e4e3e8);
+  /* background: linear-gradient(135deg, #000, #4b4b53); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 1;
+}
+.palmContainer .box .circle::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  /* background: linear-gradient(315deg, #fff, #e4e3e8); */
+  background-image: url("https://circleofcricket.com/post_image/post_image_5b25ef4.jpg");
+  background-color: #cfcfcf;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+#secondary #demo {
+  transition: all 0.5s ease-in-out;
+  font-size: 16px;
+}
+
+.palmContainer .box .circle p {
+  position: absolute;
+  padding: 10px;
+  z-index: 2;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.8vw;
+  /* color: #ff2a2a; */
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+  /* add text shadow */
+  text-shadow: 2px 3px 5px #000;
+  box-sizing: border-box;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.palmContainer .box .circle p span {
+  color: #fff;
+}
+.palmContainer i {
+  position: absolute;
+  /* background: #ff2a2a; */
+  background: #fffb2a;
+  border-radius: 100%;
+  animation: animate linear infinite;
+}
+.palmContainer i:nth-child(even) {
+  background: transparent;
+  /* border: 1px solid #ff2a2a; */
+  border: 1px solid #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(2000%);
+    opacity: 0;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .palmContainer .box .circle p {
+    font-size: 4vw;
+  }
+  .palmContainer .box {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+  }
+}
+/* media query for phone size */
+@media screen and (max-width: 600px) {
+  .palmContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: #f1f1f1; */
+    background: url("https://thumbs.dreamstime.com/b/easter-sunday-concept-empty-tomb-stone-cross-meadow-sunrise-background-high-resolution-easter-sunday-concept-empty-tomb-180153375.jpg");
+    background-size: cover;
+    z-index: 1;
+  }
+  .palmContainer .box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+  }
+
+  .palmContainer .box .circle {
+    border-radius: 50%;
+  }
+  .palmContainer .box .circle::before {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  #secondary {
+    position: absolute;
+    /* background-color: rgba(0, 0, 0, 0.507); */
+    border-radius: 0 0 100px 100px;
+  }
+  .palmContainer .box .circle p {
+    font-size: calc(1.3em + 0.8vw);
+    bottom: 40px;
+  }
+  .palmContainer i {
+    width: 50px;
+    height: 50px;
+  }
+}
