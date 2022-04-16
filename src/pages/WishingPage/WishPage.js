@@ -33,6 +33,13 @@ function WishPage() {
 
   useEffect(() => {
     // bubbles();
+    let url = window.location.href;
+    if (url.includes("wish")) {
+      document.getElementsByClassName("content")[0].style.margin = "0";
+    } else {
+      document.getElementsByClassName("content")[0].style.margin = "5rem 7rem";
+    }
+
     document.getElementById("secondary").style.display = "block";
     document.getElementById("text").style.display = "none";
   }, []);

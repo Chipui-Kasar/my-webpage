@@ -4,7 +4,13 @@ import TitleComp from "../components/aboutTitleComp";
 import ImageSection from "../components/aboutImageSection";
 import AboutSkillsComp from "../components/aboutSkillsSection";
 import ServiceSection from "../components/aboutServiceSection";
-import { FaCode, FaMobileAlt, FaShopify, FaGrinHearts } from "react-icons/fa";
+import {
+  FaCode,
+  FaMobileAlt,
+  FaShopify,
+  FaGrinHearts,
+  FaMusic,
+} from "react-icons/fa";
 import { MetaTags } from "react-meta-tags";
 function AboutPage() {
   return (
@@ -85,6 +91,11 @@ function AboutPage() {
             text={
               "Mobile games are important because it creates a within you a competitive mind"
             }
+          />
+          <ServiceSection
+            img={<FaMusic size="70px" color="rgb(0,255,0)" />}
+            title={"Listening Music"}
+            text={"Music is the art which is most nigh to tears and memory."}
           />
           <ServiceSection
             img={<FaShopify size="70px" color="rgb(0, 208, 255)" />}
