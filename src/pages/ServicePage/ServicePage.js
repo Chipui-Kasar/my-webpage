@@ -31,7 +31,7 @@ Start your photo print today with a minimum quantity of 20."
         />
         <meta
           property="og:image"
-          content="https://store-images.s-microsoft.com/image/apps.61254.14216210150808594.936b4a2c-df5d-41d5-b1a3-1bef207bc4ef.521a853d-8eb9-441b-8efd-15c07b05ed71?mode=scale&q=90&h=1080&w=1920"
+          content="https://store-images.s-microsoft.com/image/apps.61254.14216210150808594.936b4a2c-df5d-41d5-b1a3-1bef207bc4ef.521a853d-8eb9-441b-8efd-15c07b05ed71?mode=scale&q=90&h=150&w=290"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -48,7 +48,7 @@ Start your photo print today with a minimum quantity of 20."
         />
         <meta
           property="twitter:image"
-          content="https://store-images.s-microsoft.com/image/apps.61254.14216210150808594.936b4a2c-df5d-41d5-b1a3-1bef207bc4ef.521a853d-8eb9-441b-8efd-15c07b05ed71?mode=scale&q=90&h=1080&w=1920"
+          content="https://store-images.s-microsoft.com/image/apps.61254.14216210150808594.936b4a2c-df5d-41d5-b1a3-1bef207bc4ef.521a853d-8eb9-441b-8efd-15c07b05ed71?mode=scale&q=90&h=150&w=290"
         />
         <link
           rel="canonical"
@@ -61,7 +61,7 @@ Start your photo print today with a minimum quantity of 20."
           <ServiceComponent
             img={
               <img
-                src="https://store-images.s-microsoft.com/image/apps.61254.14216210150808594.936b4a2c-df5d-41d5-b1a3-1bef207bc4ef.521a853d-8eb9-441b-8efd-15c07b05ed71?mode=scale&q=90&h=1080&w=1920"
+                src="https://store-images.s-microsoft.com/image/apps.61254.14216210150808594.936b4a2c-df5d-41d5-b1a3-1bef207bc4ef.521a853d-8eb9-441b-8efd-15c07b05ed71?mode=scale&q=90&h=150&w=290"
                 alt={"service1"}
                 width="100%"
               />
