@@ -10,6 +10,7 @@ import { useState } from "react";
 import Particles from "react-particles-js";
 import Experience from "./pages/experiencePage";
 import WishPage from "./pages/WishingPage/WishPage";
+import ServicePage from "./pages/ServicePage/ServicePage";
 
 function App() {
   const [navToggle, setNavToggle] = useState(false);
@@ -70,6 +71,9 @@ function App() {
             </Route>
             <Route path="/wish" exact>
               <WishPage />
+            </Route>
+            <Route path="/service" exact>
+              <ServicePage />
             </Route>
             <Route path="*" component={HomePage} />
           </Switch>

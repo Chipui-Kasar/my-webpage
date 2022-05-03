@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles.module.css";
 
-function ServiceSection(props) {
+function HobbySection(props) {
   return (
     <div className={styles.service}>
       <div className={styles.serviceContent}>
@@ -13,4 +13,4 @@ function ServiceSection(props) {
   );
 }
 
-export default ServiceSection;
+export default HobbySection;

@@ -50,11 +50,11 @@ function WishPage() {
   };
 
   //meta data for SEO
-  let title = "Happy Easter";
+  let title = "Happy Mother's Day";
   let description =
-    "‘He Is Not Here, for He Has Risen’. Easter, also called Pascha or Resurrection Sunday, is a Christian festival and cultural holiday commemorating the resurrection of Jesus from the dead, described in the New Testament as having occurred on the third day of his burial following his crucifixion by the Romans at Calvary c. 30 AD.";
+    "Mother's Day is a celebration honoring the mother of the family or individual, as well as motherhood, maternal bonds, and the influence of mothers in society. It is celebrated on different days in many parts of the world, most commonly in the months of March or May.";
   let metadataImage =
-    "https://www.godisreal.today/wp-content/uploads/2017/04/resurrection-jesus-christ-image-1.jpg";
+    "https://www.rd.com/wp-content/uploads/2021/02/GettyImages-1125133291-ML.jpg";
 
   return (
     <div>

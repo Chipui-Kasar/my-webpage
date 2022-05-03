@@ -3,7 +3,7 @@ import styles from "../styles.module.css";
 import TitleComp from "../components/aboutTitleComp";
 import ImageSection from "../components/aboutImageSection";
 import AboutSkillsComp from "../components/aboutSkillsSection";
-import ServiceSection from "../components/aboutServiceSection";
+import HobbySection from "../components/aboutHobbySection";
 import {
   FaCode,
   FaMobileAlt,
@@ -78,33 +78,33 @@ function AboutPage() {
 
         <TitleComp title={"My Hobbies"} span={"Hobbies"} />
         <div className={styles.servicesContainer}>
-          <ServiceSection
+          <HobbySection
             img={<FaCode size="70px" color="rgb(34,139,34)" />}
             title={"Programming"}
             text={
               "Programming isn't about what you know; it's about what you can figure out. - Chris Pine"
             }
           />
-          <ServiceSection
+          <HobbySection
             img={<FaMobileAlt size="70px" color="rgb(255,255,255)" />}
             title={"Mobile Games"}
             text={
               "Mobile games are important because it creates a within you a competitive mind"
             }
           />
-          <ServiceSection
+          <HobbySection
             img={<FaMusic size="70px" color="rgb(0,255,0)" />}
             title={"Listening Music"}
             text={"Music is the art which is most nigh to tears and memory."}
           />
-          <ServiceSection
+          <HobbySection
             img={<FaShopify size="70px" color="rgb(0, 208, 255)" />}
             title={"Online Shopping"}
             text={
               "If shopping doesn't make you happy, then you're in the wrong shop."
             }
           />
-          <ServiceSection
+          <HobbySection
             img={<FaGrinHearts size="70px" color="rgb(255,255,0)" />}
             title={"Flirting"}
             text={
