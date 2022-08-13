@@ -7,8 +7,10 @@
   height: 100vh;
   /* background: #f1f1f1; */
   /* background: #ff2a2a; */
-  background: url("https://thumbs.dreamstime.com/b/easter-sunday-concept-empty-tomb-stone-cross-meadow-sunrise-background-high-resolution-easter-sunday-concept-empty-tomb-180153375.jpg");
+  background: url("https://static.vecteezy.com/system/resources/previews/004/797/532/large_2x/happy-mother-day-flat-design-illustration-mother-holding-baby-or-with-their-children-which-is-commemorated-on-december-22-for-greeting-card-and-poster-vector.jpg");
   cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 1;
 }
 .palmContainer h1 {
@@ -53,7 +55,7 @@
   right: 5px;
   bottom: 5px;
   /* background: linear-gradient(315deg, #fff, #e4e3e8); */
-  background-image: url("https://circleofcricket.com/post_image/post_image_5b25ef4.jpg");
+  background-image: url("https://www.rd.com/wp-content/uploads/2021/02/GettyImages-1125133291-ML.jpg");
   background-color: #cfcfcf;
   background-position: center;
   background-size: cover;
@@ -80,6 +82,7 @@
   text-shadow: 2px 3px 5px #000;
   box-sizing: border-box;
   font-family: "M PLUS Rounded 1c", sans-serif;
+  bottom: 60px;
 }
 .palmContainer .box .circle p span {
   color: #fff;
@@ -132,8 +135,8 @@
     justify-content: center;
     align-items: center;
     /* background: #f1f1f1; */
-    background: url("https://thumbs.dreamstime.com/b/easter-sunday-concept-empty-tomb-stone-cross-meadow-sunrise-background-high-resolution-easter-sunday-concept-empty-tomb-180153375.jpg");
-    background-size: cover;
+    /* background: url("https://thumbs.dreamstime.com/b/easter-sunday-concept-empty-tomb-stone-cross-meadow-sunrise-background-high-resolution-easter-sunday-concept-empty-tomb-180153375.jpg"); */
+    /* background-size: cover; */
     z-index: 1;
   }
   .palmContainer .box {
