@@ -440,8 +440,18 @@
 }
 
 /*------------------Experience Component-------------------------*/
-.experienceContainer {
-  margin-top: 40px;
+.experience_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.experience_container a {
+  color: #a4acc4;
+  text-decoration: none;
+}
+.experience_container a:hover {
+  color: #0381ff;
 }
 /*Portfolio=================================*/
 
