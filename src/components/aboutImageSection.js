@@ -43,7 +43,7 @@ function ImageSection() {
               <p>: Indian</p>
               <p>: English, Hindi, Manipuri, Tangkhul</p>
               <p>: Hno. 22, Khangkhui Khunou, Ukhrul</p>
-              <p>: Front-End Devepment</p>
+              <p>: Front-End Development</p>
             </div>
           </div>
           <button className={styles.dwnCV}>
