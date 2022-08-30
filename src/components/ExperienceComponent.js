@@ -9,6 +9,7 @@ function ExperienceComponent() {
       date: "July 2021 - Present",
     },
   ];
+
   return (
     <>
       <div className={styles.experience_container}>
