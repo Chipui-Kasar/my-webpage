@@ -14,15 +14,15 @@ function ContactForm(props) {
       )
 
       .then(
-        result => {
+        (result) => {
+          alert("Message Sent Successfully");
+          e.target.reset();
           console.log(result.text);
         },
-        error => {
+        (error) => {
           console.log(error.text);
         }
       );
-    alert("Message Sent Successfully");
-    e.target.reset();
   }
 
   return (
