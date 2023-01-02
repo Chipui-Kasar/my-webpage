@@ -74,7 +74,7 @@ function HomePage() {
             </span>
           </h1>
           <p>
-            Front-End/Ui Developer (web based)
+            SharePoint Developer | Front-End Developer
             <br />
             より多くのコーディング、より多くのデプロイ
           </p>

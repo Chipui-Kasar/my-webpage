@@ -68,10 +68,10 @@ function AboutPage() {
         <ImageSection />
         <TitleComp title={"My Skills"} span={"My Skills"} />
         <div className={styles.skillsContainer}>
-          <AboutSkillsComp skill={"HTML"} progress={"60%"} />
-          <AboutSkillsComp skill={"CSS"} progress={"50%"} />
+          <AboutSkillsComp skill={"HTML"} progress={"80%"} />
+          <AboutSkillsComp skill={"CSS"} progress={"60%"} />
           <AboutSkillsComp skill={"BootStrap"} progress={"60%"} />
-          <AboutSkillsComp skill={"Sharepoint(SPFx)"} progress={"40%"} />
+          <AboutSkillsComp skill={"Sharepoint(SPFx)"} progress={"60%"} />
           <AboutSkillsComp skill={"Javascript"} progress={"65%"} />
           <AboutSkillsComp skill={"ReactJs"} progress={"60%"} />
         </div>
