@@ -9,7 +9,7 @@ function NavBar(props) {
         <div className={styles.profile}>
           <img
             className={styles.myPic}
-            src="https://pbs.twimg.com/profile_banners/2483944999/1627642530/1500x500"
+            src="https://media.graphassets.com/ON2vDzY8Q5yZ1Y7C2Kkp"
             alt="Chipui Kasar"
             width="100%"
           />

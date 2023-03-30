@@ -62,7 +62,7 @@ function WishPage() {
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="title" content={title} />
-        <link rel="canonical" href="https://chipuikasarpage.netlify.app/wish" />
+        <link rel="canonical" href="https://chipuikasar.netlify.app/wish" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -72,7 +72,7 @@ function WishPage() {
         <meta property="og:image" content={metadataImage} />
         <meta
           property="og:url"
-          content="https://chipuikasarpage.netlify.app/wish"
+          content="https://chipuikasar.netlify.app/wish"
         />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />

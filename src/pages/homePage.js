@@ -6,7 +6,7 @@ import Typed from "react-typed";
 import { Helmet } from "react-helmet";
 import metatagpic from "../img/MetaTags/MTHome.JPG";
 
-const handleUrl = url => {
+const handleUrl = (url) => {
   return () => window.open(url, "_blank");
 };
 function HomePage() {
@@ -24,12 +24,8 @@ function HomePage() {
           name="description"
           content="Check out my profile.. I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
         />
-
         <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://chipuikasarpage.netlify.app/"
-        />
+        <meta property="og:url" content="https://chipuikasar.netlify.app/" />
         <meta
           property="og:title"
           content=" Chipui Kasar's Official site | My Personal Portfolio "
@@ -43,7 +39,7 @@ function HomePage() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://chipuikasarpage.netlify.app/"
+          content="https://chipuikasar.netlify.app/"
         />
         <meta
           property="twitter:title"
@@ -55,10 +51,7 @@ function HomePage() {
         />
         <meta property="twitter:image" content={metatagpic} />
 
-        <link
-          rel="canonical"
-          href="https://chipuikasarpage.netlify.app/"
-        ></link>
+        <link rel="canonical" href="https://chipuikasar.netlify.app/"></link>
       </Helmet>
       <div className={styles.home}>
         <div className={styles.homeHeader}>

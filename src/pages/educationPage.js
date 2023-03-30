@@ -17,49 +17,40 @@ function educationPage() {
   return (
     <>
       <Helmet>
-        <title>Chipui Kasar's Education History</title>
-        <meta name="title" content="Chipui Kasar's Education History" />
+        <title>Education History - Chipui Kasar</title>
+        <meta name="title" content="Education History - Chipui Kasar" />
         <meta
           name="description"
-          content="Come and check out my education History. Savio School (10) | HRD Academy (12) | BScIT (VJES)"
+          content="Check out my education history: Savio School (10) | HRD Academy (12) | BScIT (VJES)"
         />
-        <meta property="og:title" content="Education History of Chipui Kasar" />
+
+        <meta property="og:title" content="Education History - Chipui Kasar" />
         <meta
           property="og:description"
-          content="Come and check out my education History. Savio School (10) | HRD Academy (12) | BScIT (VJES)"
+          content="Check out my education history: Savio School (10) | HRD Academy (12) | BScIT (VJES)"
         />
-        <meta
-          property="og:image"
-          content={`https://www.hrdacademy.in/images/slide/slide5.jpg`}
-        />
-
+        <meta property="og:image" content="/images/education-history.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
         <meta
           property="og:url"
-          content="https://chipuikasarpage.netlify.app/education"
-        ></meta>
+          content="https://chipuikasar.netlify.app/education"
+        />
 
-        <meta property="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Education History - Chipui Kasar" />
         <meta
-          property="twitter:url"
-          content="https://chipuikasarpage.netlify.app/education"
+          name="twitter:description"
+          content="Check out my education history: Savio School (10) | HRD Academy (12) | BScIT (VJES)"
         />
-        <meta
-          property="twitter:title"
-          content="Chipui Kasar's Education History"
-        />
-        <meta
-          property="twitter:description"
-          content="Come and check out my education History. Savio School (10) | HRD Academy (12) | BScIT (VJES)"
-        />
-        <meta
-          property="twitter:image"
-          content="https://www.hrdacademy.in/images/slide/slide5.jpg"
-        />
+        <meta name="twitter:image" content="/images/education-history.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+
         <link
           rel="canonical"
-          href="https://chipuikasarpage.netlify.app/education"
-        ></link>
+          href="https://chipuikasar.netlify.app/education"
+        />
       </Helmet>
+
       <div className={styles.educationTitle}>
         <TitleComp title={"Education"} span={"History"} />
       </div>

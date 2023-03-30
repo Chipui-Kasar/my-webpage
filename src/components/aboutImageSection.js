@@ -19,14 +19,17 @@ function ImageSection() {
             <span> Chipui Kasar </span>
           </h1>
           <p className={styles.aboutInfoText}>
-            I'm from North-East India and I'm a ReactJs Developer, I love New
-            things & I really enjoy working on cutting-edge projects and
-            developing new technologies. I also enjoy being surrounded by
-            brilliant people that share the vision of “technology for good” and
-            I’m truly humbled by their support. I'm quite different from what
-            you think.
-            <br />I hurt people, so don't get too close. You'll end up getting
-            hurt Yourself.
+            Greetings, I hail from the picturesque North-Eastern region of
+            India, and I specialize in ReactJS development. I have an insatiable
+            appetite for innovation and thrive on collaborating on pioneering
+            projects that push the boundaries of technology. I find great joy in
+            being a part of a team of exceptional individuals who share a common
+            passion for utilizing technology for the greater good.
+            <br />
+            Despite my seemingly outgoing demeanor, I have a tendency to
+            inadvertently hurt people. As such, I would advise against getting
+            too close, as you may end up being the unfortunate recipient of my
+            unintentional actions.
           </p>
           <div className={styles.aboutDetails}>
             <div className={styles.aboutDetailsLeft}>

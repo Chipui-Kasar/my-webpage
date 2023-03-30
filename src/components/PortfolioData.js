@@ -11,8 +11,8 @@ const PortfolioData = [
   {
     id: 2,
     alt: "Chipui Kasar Pictures",
-    link: "https://tengkuma.netlify.app/",
-    image: "https://tengkuma.netlify.app/static/media/myPic.e44d9288.jpg",
+    link: "https://kasar.netlify.app/",
+    image: "https://kasar.netlify.app/static/media/myPic.e44d9288.jpg",
     title: "My First portfolio (ReactJs)",
   },
   {
@@ -34,12 +34,18 @@ const PortfolioData = [
     id: 5,
     alt: "NIELIT O-LEVEL Questions",
     link: "https://nietlitolevelquestions.netlify.app/",
-    image:
-      "https://pksmbd.co.in/img/images/olevel.jpg",
+    image: "https://pksmbd.co.in/img/images/olevel.jpg",
     title: "NIELIT O-Level Questions",
   },
   {
     id: 6,
+    alt: "Tengkuma Blog Page",
+    link: "https://tengkuma.vercel.app/",
+    image: "https://media.graphassets.com/RuUFzf4SSZYGVsiskbQf",
+    title: "Tengkuma Blog Page",
+  },
+  {
+    id: 7,
     alt: "The Youth Diaries | Adventure",
     link: "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
     image: Youth,

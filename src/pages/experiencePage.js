@@ -18,7 +18,7 @@ function Experience() {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://chipuikasarpage.netlify.app/experience"
+          content="https://chipuikasar.netlify.app/experience"
         />
         <meta property="og:title" content="My Experience" />
         <meta
@@ -33,7 +33,7 @@ function Experience() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://chipuikasarpage.netlify.app/experience"
+          content="https://chipuikasar.netlify.app/experience"
         />
         <meta property="twitter:title" content="My Experiences" />
         <meta
@@ -46,7 +46,7 @@ function Experience() {
         />
         <link
           rel="canonical"
-          href="https://chipuikasarpage.netlify.app/experience"
+          href="https://chipuikasar.netlify.app/experience"
         ></link>
       </Helmet>
       <div className={styles.contactTitle}>

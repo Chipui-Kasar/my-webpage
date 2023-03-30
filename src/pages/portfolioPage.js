@@ -13,11 +13,10 @@ function PortfolioPage() {
           name="description"
           content="Complete Projects of my Front End Development"
         />
-
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://chipuikasarpage.netlify.app/portfolio"
+          content="https://chipuikasar.netlify.app/portfolio"
         />
         <meta
           property="og:title"
@@ -35,11 +34,11 @@ function PortfolioPage() {
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://chipuikasarpage.netlify.app/portfolio"
+          content="https://chipuikasar.netlify.app/portfolio"
         />
         <meta
           property="twitter:title"
-          content="About Chipui Kasar, Chipui Kasar's Bio"
+          content="Projects of my Front End Development"
         />
         <meta
           property="twitter:description"
@@ -51,7 +50,7 @@ function PortfolioPage() {
         />
         <link
           rel="canonical"
-          href="https://chipuikasarpage.netlify.app/portfolio"
+          href="https://chipuikasar.netlify.app/portfolio"
         ></link>
       </Helmet>
       <div className={styles.contactTitle}>

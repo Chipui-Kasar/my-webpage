@@ -16,52 +16,52 @@ function AboutPage() {
   return (
     <>
       <MetaTags>
-        <title>About Chipui Kasar, Chipui Kasar's Bio</title>
-        <meta name="title" content="About Chipui Kasar, Chipui Kasar's Bio" />
+        <title>
+          About Chipui Kasar - ReactJs Developer from North-East India
+        </title>
+        <meta
+          name="title"
+          content="About Chipui Kasar - ReactJs Developer from North-East India"
+        />
         <meta
           name="description"
-          content=" I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
+          content="Learn more about Chipui Kasar, a talented ReactJs developer from North-East India who loves working on cutting-edge projects and developing new technologies. Discover his unique perspective and vision for technology for good."
         />
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://chipuikasarpage.netlify.app/about"
+          content="https://chipuikasar.netlify.app/about"
         />
-
         <meta
           property="og:title"
-          content="About Chipui Kasar, Chipui Kasar's Bio"
+          content="About Chipui Kasar - ReactJs Developer from North-East India"
         />
         <meta
           property="og:description"
-          content=" I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
+          content="Learn more about Chipui Kasar, a talented ReactJs developer from North-East India who loves working on cutting-edge projects and developing new technologies. Discover his unique perspective and vision for technology for good."
         />
         <meta
           property="og:image"
-          content="https://pbs.twimg.com/profile_banners/2483944999/1627642530/1500x500"
+          content="https://media.graphassets.com/ON2vDzY8Q5yZ1Y7C2Kkp"
         />
-
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://chipuikasarpage.netlify.app/"
+          content="https://chipuikasar.netlify.app/"
         />
         <meta
           property="twitter:title"
-          content="About Chipui Kasar, Chipui Kasar's Bio"
+          content="About Chipui Kasar - ReactJs Developer from North-East India"
         />
         <meta
           property="twitter:description"
-          content="I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
+          content="Learn more about Chipui Kasar, a talented ReactJs developer from North-East India who loves working on cutting-edge projects and developing new technologies. Discover his unique perspective and vision for technology for good."
         />
         <meta
           property="twitter:image"
-          content="https://pbs.twimg.com/profile_banners/2483944999/1627642530/1500x500"
+          content="https://media.graphassets.com/ON2vDzY8Q5yZ1Y7C2Kkp"
         />
-        <link
-          rel="canonical"
-          href="https://chipuikasarpage.netlify.app/about"
-        ></link>
+        <link rel="canonical" href="https://chipuikasar.netlify.app/about" />
       </MetaTags>
       <div className={styles.about}>
         <TitleComp title={"About Me"} span={"About Me"} />
@@ -70,10 +70,10 @@ function AboutPage() {
         <div className={styles.skillsContainer}>
           <AboutSkillsComp skill={"HTML"} progress={"80%"} />
           <AboutSkillsComp skill={"CSS"} progress={"60%"} />
-          <AboutSkillsComp skill={"BootStrap"} progress={"60%"} />
-          <AboutSkillsComp skill={"Sharepoint(SPFx)"} progress={"60%"} />
-          <AboutSkillsComp skill={"Javascript"} progress={"65%"} />
-          <AboutSkillsComp skill={"ReactJs"} progress={"60%"} />
+          <AboutSkillsComp skill={"BootStrap"} progress={"65%"} />
+          <AboutSkillsComp skill={"Sharepoint(SPFx)"} progress={"65%"} />
+          <AboutSkillsComp skill={"Javascript"} progress={"70%"} />
+          <AboutSkillsComp skill={"ReactJs"} progress={"70%"} />
         </div>
 
         <TitleComp title={"My Hobbies"} span={"Hobbies"} />

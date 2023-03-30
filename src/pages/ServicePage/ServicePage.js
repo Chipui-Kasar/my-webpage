@@ -19,7 +19,7 @@ Start your photo print today with a minimum quantity of 20."
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://chipuikasarpage.netlify.app/service"
+          content="https://chipuikasar.netlify.app/service"
         />
 
         <meta property="og:title" content="Services" />
@@ -37,7 +37,7 @@ Start your photo print today with a minimum quantity of 20."
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://chipuikasarpage.netlify.app/"
+          content="https://chipuikasar.netlify.app/"
         />
         <meta property="twitter:title" content="Services" />
         <meta
@@ -52,7 +52,7 @@ Start your photo print today with a minimum quantity of 20."
         />
         <link
           rel="canonical"
-          href="https://chipuikasarpage.netlify.app/service"
+          href="https://chipuikasar.netlify.app/service"
         ></link>
       </MetaTags>
       <div className={styles.about}>
