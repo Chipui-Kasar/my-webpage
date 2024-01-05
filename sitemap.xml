@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!--  created with sitemap generator https://octopus.do  -->
+
+    <url>
+        <loc>https://chipuikasar.netlify.app</loc>
+        <lastmod>2024-01-05</lastmod>
+        <changefreq>always</changefreq>
+        <priority>0.5</priority>
+    </url>
+
+    <!-- Add /about page -->
+    <url>
+        <loc>https://chipuikasar.netlify.app/about</loc>
+        <lastmod>2024-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Add /education page -->
+    <url>
+        <loc>https://chipuikasar.netlify.app/education</loc>
+        <lastmod>2024-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Add /experience page -->
+    <url>
+        <loc>https://chipuikasar.netlify.app/experience</loc>
+        <lastmod>2024-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Add /portfolio page -->
+    <url>
+        <loc>https://chipuikasar.netlify.app/portfolio</loc>
+        <lastmod>2024-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+    <!-- Add /contact page -->
+    <url>
+        <loc>https://chipuikasar.netlify.app/contact</loc>
+        <lastmod>2024-01-05</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+</urlset>
