@@ -19,15 +19,16 @@ const PortfolioData = [
     id: 3,
     alt: "Khangkhui Khunou, Khangkhui Phungdhar",
     link: "https://khangkhuikhunou.netlify.app/",
-    image: "https://khangkhuikhunou.netlify.app/images/IMG_20171231_115945.jpg",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/khangkhuiphungdhar.appspot.com/o/file%2FKHANGKHUI%20PHUNGDHAR.jpg%20on%2004-Jan-2024%2C%2021%3A03%3A18?alt=media&token=a0339607-eba5-4911-99f9-24a39479e3db",
     title: "Khangkhui Khunou (HTML, CSS, BootStrap)",
   },
   {
     id: 4,
     alt: "Khangkhui Khunou, Khangkhui Phungdhar",
-    link: "https://khangkhuiPhungdhar.netlify.app/",
+    link: "https://khangkhuiPhungdhar.vercel.app/",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/khangkhuiphungdhar.appspot.com/o/file%2FKHANGKHUI%20PHUNGDHAR.jpg%20on%2010-Dec-2021,%2021:12:14?alt=media&token=d5aac0ce-0878-41c7-a800-3b09d4aeef5e",
+      "https://firebasestorage.googleapis.com/v0/b/khangkhuiphungdhar.appspot.com/o/file%2FKHANGKHUI%20PHUNGDHAR.jpg%20on%2004-Jan-2024%2C%2021%3A03%3A18?alt=media&token=a0339607-eba5-4911-99f9-24a39479e3db",
     title: "Khangkhui Khunou (ReactJS)",
   },
   {
