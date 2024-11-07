@@ -43,6 +43,11 @@ function NavBar(props) {
               Portfolios
             </NavLink>
           </li>
+          <li className={styles.navItem}>
+            <NavLink to="/service" exact activeClassName={styles.active}>
+              Services
+            </NavLink>
+          </li>
 
           <li className={styles.navItem}>
             <NavLink to="/contact" exact activeClassName={styles.active}>

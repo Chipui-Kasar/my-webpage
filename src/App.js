@@ -75,6 +75,7 @@ function App() {
             <Route path="/service" exact>
               <ServicePage />
             </Route>
+
             <Route path="*" component={HomePage} />
           </Switch>
         </div>

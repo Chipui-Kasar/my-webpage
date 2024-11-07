@@ -96,6 +96,7 @@ function ContactPage() {
           messageTitle={"Get in Touch"}
           messageIcon={<FaWeixin size="70px" color="green" />}
         />
+        WIFI Password is: nskgituwp567@k
       </div>
     </>
   );

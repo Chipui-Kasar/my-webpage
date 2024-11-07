@@ -54,6 +54,7 @@ function Experience() {
         <div className={styles.experienceContainer}>
           <ExperienceComponent />
         </div>
+        {/* <RowManager /> */}
       </div>
     </>
   );
