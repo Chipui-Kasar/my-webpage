@@ -47,6 +47,14 @@ const PortfolioData = [
   },
   {
     id: 7,
+    alt: "Tangkhul Song Lyrics",
+    link: "https://tangkhullyrics.com/",
+    image:
+      "data:image/x-icon;base64,AAABAAEALi4AAAAAIACLAQAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAAuAAAALggGAAAAV7krNwAAAUBJREFUeJzsmcENwyAMRRmECTpBFmGQTsAEXaRL5JYJMkEXSbGEJYTcKA3GxhJf+oeoSfpq2cZQ5/ronXwQXpNDp+/sCo7+JD/V6BrAyx8QLIKj4X6vQtoIDt5VSBnAMfImwcFRgZcF/NDsOK3gh1axcoCr5DsHuErUa/BasOhs1T2UXxKw/4Cjlty/z+CHBEfFE/AwMjj1jEq63AGnnsNBbHjwX2kTLIC7vHKq9PRWcEd0GzPgS/UOuDYB7nJHEc1zLnCXu4pYW+QEXyQLlBMcW6RJcJeHMpPgIprgM+IzVRQES29pP3Jxxgt7w1jME+rg5ZBz1RuxgxeTL4YbDovowQwtBr4yQ4uA17sOM+B3inGCtyh0iLbYgQ43uNiZCGfUd+kzbg74La8J4vIXD98pD/F3N/R23GWfFSB8Lgb8BQAA//8YA2GNAAAABklEQVQDAFePIGGl4HWkAAAAAElFTkSuQmCC",
+    title: "Tangkhul Song Lyrics",
+  },
+  {
+    id: 8,
     alt: "The Youth Diaries | Adventure",
     link: "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
     image: Youth,
