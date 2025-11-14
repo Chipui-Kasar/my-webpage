@@ -55,6 +55,14 @@ const PortfolioData = [
   },
   {
     id: 8,
+    alt: "Tangkhul English Dictionary",
+    link: "https://tangkhuldictionary.lovable.app/",
+    image:
+      "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9933d88e-8930-40bf-a212-a038aedae903/id-preview-68ff0481--d944e536-c49d-410b-bddd-58ea2ba6edac.lovable.app-1763002510575.png",
+    title: "Tangkhul English Dictionary",
+  },
+  {
+    id: 9,
     alt: "The Youth Diaries | Adventure",
     link: "https://mrdoob.com/projects/chromeexperiments/google-gravity/",
     image: Youth,
