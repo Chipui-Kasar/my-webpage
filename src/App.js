@@ -1,83 +1,88 @@
 import "./App.css";
+import { useEffect, useState } from "react";
+import Particles, { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
+import { Route, Routes, useLocation } from "react-router-dom";
 import HomePage from "./pages/homePage";
 import NavBar from "./components/navBar";
 import AboutPage from "./pages/aboutPage";
 import Education from "./pages/educationPage";
 import Contact from "./pages/contactPage";
 import Portfolio from "./pages/portfolioPage";
-import { Switch, Route } from "react-router-dom";
-import { useState } from "react";
-import Particles from "react-particles-js";
 import Experience from "./pages/experiencePage";
 import WishPage from "./pages/WishingPage/WishPage";
 import ServicePage from "./pages/ServicePage/ServicePage";
 
+const particlesOptions = {
+  fullScreen: {
+    enable: false,
+  },
+  particles: {
+    number: {
+      value: 50,
+      density: {
+        enable: true,
+        area: 900,
+      },
+    },
+    shape: {
+      type: "circle",
+      stroke: {
+        width: 6,
+        color: "#037fff",
+      },
+    },
+  },
+};
+
 function App() {
   const [navToggle, setNavToggle] = useState(false);
+  const [particlesReady, setParticlesReady] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine);
+    }).then(() => {
+      setParticlesReady(true);
+    });
+  }, []);
+
   const navClick = () => {
-    setNavToggle(!navToggle);
+    setNavToggle((currentValue) => !currentValue);
   };
 
   return (
     <div className="App">
       <div className={`sideBar ${navToggle ? "navToggleB" : ""}`}>
-        {<NavBar toggle={navToggle} setNavToggle={setNavToggle} />}
+        <NavBar setNavToggle={setNavToggle} />
       </div>
-      <div className="navBtn" onClick={navClick}>
+      <button
+        type="button"
+        className="navBtn"
+        onClick={navClick}
+        aria-label="Toggle navigation"
+      >
         <div className="bar1"></div>
         <div className="bar2"></div>
         <div className="bar3"></div>
-      </div>
+      </button>
       <div className="mainContent">
+        {location.pathname === "/" && particlesReady ? (
+          <Particles className="particles" options={particlesOptions} />
+        ) : null}
         <div className="content">
-          <Switch>
-            <Route path="/" exact>
-              <Particles
-                className="particles"
-                params={{
-                  particles: {
-                    number: 50,
-                    density: { enable: true, value_area: 900 },
-                    shape: {
-                      type: "circle",
-                      stroke: {
-                        width: 6,
-                        color: "#037fff",
-                      },
-                    },
-                  },
-                }}
-              />
-              <HomePage />
-            </Route>
-
-            <Route path="/about" exact>
-              <AboutPage />
-            </Route>
-
-            <Route path="/education" exact>
-              <Education />
-            </Route>
-            <Route path="/experience" exact>
-              <Experience />
-            </Route>
-
-            <Route path="/portfolio" exact>
-              <Portfolio />
-            </Route>
-
-            <Route path="/contact" exact>
-              <Contact />
-            </Route>
-            <Route path="/wish" exact>
-              <WishPage />
-            </Route>
-            <Route path="/service" exact>
-              <ServicePage />
-            </Route>
-
-            <Route path="*" component={HomePage} />
-          </Switch>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/wish" element={<WishPage />} />
+            <Route path="/service" element={<ServicePage />} />
+            <Route path="*" element={<HomePage />} />
+          </Routes>
         </div>
       </div>
     </div>

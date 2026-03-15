@@ -11,58 +11,22 @@ import {
   FaGrinHearts,
   FaMusic,
 } from "react-icons/fa";
-import { MetaTags } from "react-meta-tags";
+import aboutImage from "../img/about.png";
+import Seo from "../components/Seo";
+
+const title = "About Chipui Kasar";
+const description =
+  "Learn about Chipui Kasar, his development background, technical skills, hobbies, and the experience behind his React and SharePoint work.";
+
 function AboutPage() {
   return (
     <>
-      <MetaTags>
-        <title>
-          About Chipui Kasar - ReactJs Developer from North-East India
-        </title>
-        <meta
-          name="title"
-          content="About Chipui Kasar - ReactJs Developer from North-East India"
-        />
-        <meta
-          name="description"
-          content="Learn more about Chipui Kasar, a talented ReactJs developer from North-East India who loves working on cutting-edge projects and developing new technologies. Discover his unique perspective and vision for technology for good."
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://chipuikasar.netlify.app/about"
-        />
-        <meta
-          property="og:title"
-          content="About Chipui Kasar - ReactJs Developer from North-East India"
-        />
-        <meta
-          property="og:description"
-          content="Learn more about Chipui Kasar, a talented ReactJs developer from North-East India who loves working on cutting-edge projects and developing new technologies. Discover his unique perspective and vision for technology for good."
-        />
-        <meta
-          property="og:image"
-          content="https://media.graphassets.com/ON2vDzY8Q5yZ1Y7C2Kkp"
-        />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://chipuikasar.netlify.app/"
-        />
-        <meta
-          property="twitter:title"
-          content="About Chipui Kasar - ReactJs Developer from North-East India"
-        />
-        <meta
-          property="twitter:description"
-          content="Learn more about Chipui Kasar, a talented ReactJs developer from North-East India who loves working on cutting-edge projects and developing new technologies. Discover his unique perspective and vision for technology for good."
-        />
-        <meta
-          property="twitter:image"
-          content="https://media.graphassets.com/ON2vDzY8Q5yZ1Y7C2Kkp"
-        />
-        <link rel="canonical" href="https://chipuikasar.netlify.app/about" />
-      </MetaTags>
+      <Seo
+        title={title}
+        description={description}
+        path="/about"
+        image={aboutImage}
+      />
       <div className={styles.about}>
         <TitleComp title={"About Me"} span={"About Me"} />
         <ImageSection />

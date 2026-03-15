@@ -41,6 +41,9 @@
   align-items: center;
   cursor: pointer;
   justify-content: space-between;
+  background: transparent;
+  border: 0;
+  padding: 0;
 }
 .bar1,
 .bar2,
@@ -58,10 +61,15 @@
   margin-bottom: 0.5rem;
 }
 
-.tsparticles-canvas-el {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
+.App .mainContent .particles {
+  inset: 0;
+  position: absolute;
+  z-index: 0;
+}
+
+.App .mainContent .particles canvas {
+  height: 100% !important;
+  width: 100% !important;
 }
 /*Media query starts*/
 @media (max-width: 1000px) {
@@ -99,6 +107,8 @@
 
 .App .mainContent .content {
   margin: 5rem 7rem;
+  position: relative;
+  z-index: 1;
 }
 
 @media (max-width: 1000px) {

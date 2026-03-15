@@ -12,44 +12,21 @@ import {
   FaSchool,
   FaVoteYea,
 } from "react-icons/fa";
-import { Helmet } from "react-helmet";
+import Seo from "../components/Seo";
+
+const title = "Education History of Chipui Kasar";
+const description =
+  "Explore the education and training history of Chipui Kasar, including academic qualifications and UI development training.";
+
 function educationPage() {
   return (
     <>
-      <Helmet>
-        <title>Education History - Chipui Kasar</title>
-        <meta name="title" content="Education History - Chipui Kasar" />
-        <meta
-          name="description"
-          content="Check out my education history: Savio School (10) | HRD Academy (12) | BScIT (VJES)"
-        />
-
-        <meta property="og:title" content="Education History - Chipui Kasar" />
-        <meta
-          property="og:description"
-          content="Check out my education history: Savio School (10) | HRD Academy (12) | BScIT (VJES)"
-        />
-        <meta property="og:image" content="/images/education-history.jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta
-          property="og:url"
-          content="https://chipuikasar.netlify.app/education"
-        />
-
-        <meta name="twitter:title" content="Education History - Chipui Kasar" />
-        <meta
-          name="twitter:description"
-          content="Check out my education history: Savio School (10) | HRD Academy (12) | BScIT (VJES)"
-        />
-        <meta name="twitter:image" content="/images/education-history.jpg" />
-        <meta name="twitter:card" content="summary_large_image" />
-
-        <link
-          rel="canonical"
-          href="https://chipuikasar.netlify.app/education"
-        />
-      </Helmet>
+      <Seo
+        title={title}
+        description={description}
+        path="/education"
+        image={resume}
+      />
 
       <div className={styles.educationTitle}>
         <TitleComp title={"Education"} span={"History"} />

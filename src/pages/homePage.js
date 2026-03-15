@@ -2,63 +2,55 @@ import React from "react";
 import styles from "../styles.module.css";
 import { FaFacebook, FaGithub, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Typed from "react-typed";
-import { Helmet } from "react-helmet";
-import metatagpic from "../img/MetaTags/MTHome.JPG";
+import { ReactTyped } from "react-typed";
+import Seo, { SITE_NAME, SITE_URL } from "../components/Seo";
 
 const handleUrl = (url) => {
   return () => window.open(url, "_blank");
 };
-function HomePage() {
-  //greeting base on time
 
+const title = "Chipui Kasar | Front-End and SharePoint Developer";
+const description =
+  "Personal portfolio of Chipui Kasar, a Front-End and SharePoint developer building React applications, modern UI experiences, and production-ready web solutions.";
+const structuredData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      name: SITE_NAME,
+      url: SITE_URL,
+      image: `${SITE_URL}/MTHome.JPG`,
+      jobTitle: "Front-End and SharePoint Developer",
+      sameAs: [
+        "https://github.com/Chipui-Kasar",
+        "https://www.facebook.com/chipui.kasar.3",
+        "https://www.youtube.com/c/chipuikasar",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
+  ],
+};
+
+function HomePage() {
   return (
     <>
-      <Helmet>
-        <title> Chipui Kasar's Official site | My Personal Portfolio </title>
-        <meta
-          name="title"
-          content=" Chipui Kasar's Official site | My Personal Portfolio "
-        />
-        <meta
-          name="description"
-          content="Check out my profile.. I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://chipuikasar.netlify.app/" />
-        <meta
-          property="og:title"
-          content=" Chipui Kasar's Official site | My Personal Portfolio "
-        />
-        <meta
-          property="og:description"
-          content="Check out my profile.. I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
-        />
-        <meta property="og:image" content={metatagpic} />
-
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://chipuikasar.netlify.app/"
-        />
-        <meta
-          property="twitter:title"
-          content=" Chipui Kasar's Official site | My Personal Portfolio "
-        />
-        <meta
-          property="twitter:description"
-          content="Check out my profile.. I'm from North-East India and I'm a ReactJs Developer, I love New things & I really enjoy working on cutting-edge projects and developing new technologies. I also enjoy being surrounded by brilliant people that share the vision of “technology for good” and I’m truly humbled by their support. I'm quite different from what you think."
-        />
-        <meta property="twitter:image" content={metatagpic} />
-
-        <link rel="canonical" href="https://chipuikasar.netlify.app/"></link>
-      </Helmet>
+      <Seo
+        title={title}
+        description={description}
+        path="/"
+        image="/MTHome.JPG"
+        structuredData={structuredData}
+      />
       <div className={styles.home}>
         <div className={styles.homeHeader}>
           <h1 className={styles.headerText}>
             Hello, I'm{" "}
             <span>
-              <Typed
+              <ReactTyped
                 strings={[" Chipui Kasar", " Za̲puma̲"]}
                 typeSpeed={70}
                 backSpeed={50}

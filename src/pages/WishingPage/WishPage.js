@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import Seo from "../../components/Seo";
 import "./WishPage.css";
 // import audio from "./wish.mp3";
 
@@ -58,28 +58,13 @@ function WishPage() {
 
   return (
     <div>
-      <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={description} />
-        <meta name="title" content={title} />
-        <link rel="canonical" href="https://chipuikasar.netlify.app/wish" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <meta property="og:title" content={title} />
-        <meta property="og:description" content={description} />
-        <meta property="og:image" content={metadataImage} />
-        <meta
-          property="og:url"
-          content="https://chipuikasar.netlify.app/wish"
-        />
-        <meta name="twitter:title" content={title} />
-        <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={metadataImage} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@chipui" />
-      </Helmet>
+      <Seo
+        title={title}
+        description={description}
+        path="/wish"
+        image={metadataImage}
+        noIndex
+      />
 
       {/* <form className="form">
         <label

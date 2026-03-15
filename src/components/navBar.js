@@ -2,7 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styles from "../styles.module.css";
 
-function NavBar(props) {
+function NavBar({ setNavToggle }) {
+  const getNavLinkClassName = ({ isActive }) =>
+    isActive ? styles.active : undefined;
+
   return (
     <div className={styles.navBar}>
       <nav className={styles.navSection}>
@@ -14,43 +17,40 @@ function NavBar(props) {
             width="100%"
           />
         </div>
-        <ul
-          className={styles.navItems}
-          onClick={() => props.setNavToggle(false)}
-        >
+        <ul className={styles.navItems} onClick={() => setNavToggle(false)}>
           <li className={styles.navItem}>
-            <NavLink to="/" exact activeClassName={styles.active}>
+            <NavLink to="/" end className={getNavLinkClassName}>
               Home
             </NavLink>
           </li>
           <li className={styles.navItem}>
-            <NavLink to="/about" exact activeClassName={styles.active}>
+            <NavLink to="/about" className={getNavLinkClassName}>
               About
             </NavLink>
           </li>
           <li className={styles.navItem}>
-            <NavLink to="/education" exact activeClassName={styles.active}>
+            <NavLink to="/education" className={getNavLinkClassName}>
               Education
             </NavLink>
           </li>
           <li className={styles.navItem}>
-            <NavLink to="/experience" exact activeClassName={styles.active}>
+            <NavLink to="/experience" className={getNavLinkClassName}>
               Experience
             </NavLink>
           </li>
           <li className={styles.navItem}>
-            <NavLink to="/portfolio" exact activeClassName={styles.active}>
+            <NavLink to="/portfolio" className={getNavLinkClassName}>
               Portfolios
             </NavLink>
           </li>
           <li className={styles.navItem}>
-            <NavLink to="/service" exact activeClassName={styles.active}>
+            <NavLink to="/service" className={getNavLinkClassName}>
               Services
             </NavLink>
           </li>
 
           <li className={styles.navItem}>
-            <NavLink to="/contact" exact activeClassName={styles.active}>
+            <NavLink to="/contact" className={getNavLinkClassName}>
               Contact
             </NavLink>
           </li>

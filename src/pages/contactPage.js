@@ -9,51 +9,22 @@ import ContactItem from "../components/contactItem";
 import styles from "../styles.module.css";
 import TitleComp from "../components/aboutTitleComp";
 import ContactForm from "../components/contactForm";
-import { Helmet } from "react-helmet";
 import ogImage from "../img/MetaTags/ContactMT.jpg";
+import Seo from "../components/Seo";
+
+const title = "Contact Chipui Kasar";
+const description =
+  "Get in touch with Chipui Kasar for front-end, React, and SharePoint development projects, collaborations, or freelance work.";
+
 function ContactPage() {
   return (
     <>
-      <Helmet>
-        <title>Get in Touch with Front-End Developer Chipui Kasar</title>
-        <meta name="title" content="Contact Chipui Kasar" />
-        <meta
-          name="description"
-          content="If you have any questions or concerns related to front-end development, I'm here to help! Fill out the form to get in touch with me."
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://chipuikasar.netlify.app/contact"
-        />
-        <meta
-          property="og:title"
-          content="Get in Touch with Front-End Developer Chipui Kasar"
-        />
-        <meta
-          property="og:description"
-          content="If you have any questions or concerns related to front-end development, I'm here to help! Fill out the form to get in touch with me."
-        />
-        <meta property="og:image" content={ogImage} />
-        <meta property="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:url"
-          content="https://chipuikasar.netlify.app/contact"
-        />
-        <meta
-          property="twitter:title"
-          content="Get in Touch with Front-End Developer Chipui Kasar"
-        />
-        <meta
-          property="twitter:description"
-          content="If you have any questions or concerns related to front-end development, I'm here to help! Fill out the form to get in touch with me."
-        />
-        <meta property="twitter:image" content={ogImage} />
-        <link
-          rel="canonical"
-          href="https://chipuikasar.netlify.app/contact"
-        ></link>
-      </Helmet>
+      <Seo
+        title={title}
+        description={description}
+        path="/contact"
+        image={ogImage}
+      />
 
       <div className={styles.contactTitle}>
         <TitleComp title={"Contact"} span={"Contact"} />
